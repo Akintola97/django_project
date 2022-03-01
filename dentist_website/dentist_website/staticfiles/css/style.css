@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    color:red;
+}
+/*#logo{
+    text-decoration: none;
+}
+
+.fa-tooth{
+    color:white;
+
+}
+*/

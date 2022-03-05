@@ -9,21 +9,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
     crossorigin="anonymous">
-    <link rel = 'stylesheet' href = "{% static '/css/style.css' %}">
-    <title>Orthodontics</title>
+    <link rel = 'stylesheet' href = "{% static '/css/style.css' %}"> 
+    <script>
+     $('.bars').click(function(){($('#vertical-nav').toggle())}); 
+    </script> 
+
+
+     <title>Orthodontics</title>
+    
+
+    
 </head>
 <body class = 'home-page'>
 
-    <h1> Hello world</h1>
-    <h2> Hello world</h2>
-    <nav id = 'navbar'>
+ <nav id = 'navbar'>
+        <div class= 'logo'>
         <a class = 'logo-link' href = 'home.html'><span id = 'logo'><i class="fas fa-tooth"></i></span></a>
-
-    <ul class = 'nav-tabs'>
+        <a id = 'logo-link' href = 'home.html'><h2 class = 'dentist-name'>Orhtodontist</h2></a>
+        </div>
+  <ul class = 'nav-tabs'>
         <li id = 'nav-link'><a href = 'about'>About Us</a></li>
         <li id = 'nav-link'><a href = 'services'>Services</a></li>
         <li id = 'nav-link'><a href = 'about'>Contact</a></li>
-    </ul>
+        <li id = 'nav-link'><a href = 'about'>Appointment</a></li>
+
+        <div class = 'bars'>
+            <i class="fas fa-bars"></i>
+        </div>
+    </ul> 
+    </nav> 
+ <nav id = 'vertical-nav'>
+        <ul class = 'vertical-tabs'>
+            <li id = 'vertical-links'><a class = 'vertical-ref-about' href = 'about'>About Us</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-service'  href = 'services'>Services</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-contact' href = 'contact'>Contact</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-appointment' href = 'contact'>Appointment</a></li>
     </nav>
+
+ 
+
+
+ <div class = 'container-main'>
+        <img class = 'main-img' src = '{% static "/images/orthodontist-office.jpeg" %}'>
+    </div>
+    
 </body>
 </html>

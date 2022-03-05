@@ -6,19 +6,120 @@
 }
 
 
+ #navbar{
+    position: fixed; 
+    z-index: 10;
+    left: 0; 
+    right: 0;
+    top: 0;
+    height: 60px;
+    background-color: gray;
+}
 
-h1{
-    color:red;
+.logo{
+    float: left;
+    width: 50%; 
+    height: 100%;
+    display:flex;
+    align-items: center;
+    
 }
-h2{
-    color:red;
-}
-/*#logo{
-    text-decoration: none;
-}
-
 .fa-tooth{
     color:white;
+    font-size: 30px;
 
 }
-*/
+
+#logo-link, .dentist-name{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+}
+.nav-tabs{
+    float:right;
+    padding: 0; 
+    margin: 0; 
+    width: 50%; 
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-link {
+    list-style:none;
+}
+
+.nav-tabs a{
+   text-decoration: none;
+   color:black;
+}
+
+.bars{
+    visibility: show;
+} 
+
+#vertical-nav{
+    position: fixed;
+    width:100%;
+    text-align: center;
+    padding:61px;
+    text-decoration: none;
+    visibility: show;
+}
+
+.vertical-tabs{
+    list-style-type: none;
+}
+#vertical-links{
+    padding: 10px;
+    
+}
+
+.vertical-ref-about{
+    text-decoration: none;
+    background-color:grey;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    border: 1px black solid;
+    color:white;
+}
+.vertical-ref-service{
+    text-decoration: none;
+    background-color:grey;
+    padding: 10px 24px;
+    align-items: center;
+    text-align: center;
+    border: 1px black solid;
+    color:white;
+}
+.vertical-ref-contact{
+   text-decoration: none;
+   background-color:grey;
+   padding: 10px 26px;
+   align-items: center;
+   text-align: center;
+   border: 1px black solid;
+   color:white;
+}
+.vertical-ref-appointment{
+  text-decoration: none;
+  background-color:grey;
+  padding: 10px 9px;
+  align-items: center;
+  text-align: center;
+  border: 1px black solid;
+  color:white;
+}
+  
+
+.container-main{
+    height:500px;
+
+}
+.main-img{
+    height:600px;
+    width: 100%;
+}
+

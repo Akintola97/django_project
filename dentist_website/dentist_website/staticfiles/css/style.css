@@ -114,20 +114,19 @@
 }
   
  .container-main{
-   /* padding-top:40px; 
-    height:690px; */
-   
+   padding-top:50px;
+    height:500px;
 } 
 
-/* #main-video{
-    width:100%;
-    height:690px;
-} */
+#main-video{
+   width:100%;
+   
+} 
 
 
 .main-text{
     position:relative;
-    bottom:85%;
+    top:0%;
     text-align: left;
     padding-left: 10px;
     

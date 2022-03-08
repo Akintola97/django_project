@@ -53,6 +53,7 @@
 .nav-tabs a{
    text-decoration: none;
    color:black;
+   font-family:'Source Sans Pro', sans-serif;
 }
 
 .bars{
@@ -114,7 +115,7 @@
 }
   
  .container-main{
-   padding-top:50px;
+   padding-top:40px;
     height:500px;
 } 
 
@@ -126,22 +127,23 @@
 
 .main-text{
     position:relative;
-    top:0%;
+    bottom:100%;
     text-align: left;
     padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
 #maintext-left{
     text-transform: uppercase;
     font-size:40px;
-    color:rgba(255,165,0, 0.9);
+    color:rgba(0,0,0,.7)
 }
 #maintext-second{
     padding-top:20px;
     text-transform: uppercase;
     font-size:40px;
-    color:rgba(255,165,0, 0.9);
+    color:rgba(0,0,0,.7)
 }
 
 .schedule{
@@ -152,7 +154,7 @@
     text-transform: uppercase;
     font-size:20px;
     background-color:gold;
-    color:rgba(0,0,0,.5);
+    color:rgba(0,0,0,.7);
     border-radius: 20px;
     border:gold;
     padding-left:10px;
@@ -160,4 +162,9 @@
     padding-top:5px;
     padding-bottom: 5px;
 
+}
+
+.container-two{
+    height:800px;
+    background-color: black;
 }

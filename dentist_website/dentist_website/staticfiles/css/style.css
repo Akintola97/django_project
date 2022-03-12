@@ -166,7 +166,7 @@
 }
 
 .container-two{
-    height:1500px;
+    height:1450px;
     background-color:white; 
     overflow: hidden;
     background: #2980B9;  /* fallback for old browsers */
@@ -215,3 +215,37 @@ font-size: 50px;
     padding-top:40px;
     margin: 0;
 } 
+
+ .container-three{
+    height:1000px;
+} 
+
+#dentalprocedure-image{
+position:relative;
+bottom: 150px;
+}
+
+.procedure-text{
+    text-align: center;
+    text-transform: uppercase;
+}
+#procedure-list{
+    list-style-type: circle;
+    list-style-position: inside;
+    
+}
+
+#list-one{
+    padding-top:10px;
+    font-size:18px;
+    text-align: center;
+    padding-bottom:10px;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+#list{
+    font-size:18px;
+    text-align: center;
+    padding-bottom:10px;
+    font-family: 'Open Sans', sans-serif;
+}

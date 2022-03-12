@@ -13,7 +13,7 @@
     right: 0;
     top: 0;
     height: 60px;
-    background-color: gray;
+  /* background-color:gray; */
 }
 
 .logo{
@@ -27,6 +27,7 @@
 .fa-tooth{
     color:white;
     font-size: 30px;
+    
 
 }
 
@@ -53,11 +54,12 @@
 .nav-tabs a{
    text-decoration: none;
    color:black;
-   font-family:'Source Sans Pro', sans-serif;
+ font-family:'Source Sans Pro', sans-serif; 
 }
 
 .bars{
     visibility: show;
+    color:black;
 } 
 
 #vertical-nav{
@@ -115,14 +117,12 @@
 }
   
  .container-main{
-   padding-top:40px;
-    height:700px;
+    height:650px;
     overflow: hidden;
 } 
 
 #main-video{
    width:100%;
-   
 } 
 
 
@@ -132,7 +132,7 @@
     text-align: left;
     padding-left: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    
+  
 }
 
 #maintext-left{
@@ -166,14 +166,52 @@
 }
 
 .container-two{
-    height:600px;
+    height:1500px;
     background-color:white; 
+    overflow: hidden;
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-top:100px;
 }
 
-#dentist-image{
-    background-image: url('../images/black-dentist.jpeg');
-}
- /* .dentist-image{
-    padding-top:30px;
 
-} */
+.maskimage-text{
+  padding-top:125px;
+  text-align: center;
+}
+
+#mask-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.fa-head-side-mask{
+font-size: 50px;
+}
+
+.techimage{
+   padding-top: 280px;
+}
+
+
+.techlogo-text{
+    padding-top:420px;
+    text-align: center;
+}
+
+.fa-atom{
+    font-size:50px;
+}
+
+
+ #tech-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top:40px;
+    margin: 0;
+} 

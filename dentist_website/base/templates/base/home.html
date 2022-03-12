@@ -7,10 +7,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" >
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <script src="https://kit.fontawesome.com/76066c858e.js" crossorigin="anonymous"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel = 'stylesheet' href = "{% static '/css/style.css' %}"> 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
@@ -71,12 +72,26 @@
 </div>
     </div>
   <div class = 'container-two'>
-      <div id = 'dentist-image'>
-          
-      </div>
- <!-- <img class = 'dentist-image' src = '{% static "/images/black-dentist.jpeg" %}'> 
- -->
-  </div>  
+ <img class = 'dentist-image' src = '{% static "/images/black-dentist.jpeg" %}' ALIGN = 'left'> 
+<div class = 'maskimage-text'>
+    <i class="fas fa-head-side-mask"></i>
+<p id = 'mask-text'>
+    We ensure our patients are in a stress-free environment during these times. We do attempt to acommodate all our patients, for more information regarding our Covid Procedures please contact us.
+</p>
+</div>
     
+    <img class = 'techimage' src = '{% static "/images/dental-tech.jpeg" %}' ALIGN = 'right'>
+    <div class = 'techlogo-text'>  
+    <i class="fas fa-atom"></i>
+        <p id = 'tech-text'>With our state of the art technology such as 3D imaging, Chairside CAD/CAM systems, surgical Microsopes and Dental Microscopes, we are able to offer in-house, same day services such as crown replacements, wisdom tooth extractions, dental implants, root canal surgery and Cosmestic Surgeries </p>
+    </div>
+    
+</div>
+</div> 
+
+    
+
+
+
 </body>
 </html>

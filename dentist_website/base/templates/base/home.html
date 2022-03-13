@@ -34,8 +34,10 @@
   <ul class = 'nav-tabs'>
         <li id = 'nav-link'><a href = 'about'>About Us</a></li>
         <li id = 'nav-link'><a href = 'services'>Services</a></li>
-        <li id = 'nav-link'><a href = 'about'>Contact</a></li>
-        <li id = 'nav-link'><a href = 'about'>Appointment</a></li>
+        <li id = 'nav-link'><a href = 'contact'>Contact</a></li>
+        <li id = 'nav-link'><a href = 'store'>Shop</a></li>
+        <li id = 'nav-link'><a href = 'appointment'>Appointment</a></li>
+        
 
         <div class = 'bars'>
             <i class="fas fa-bars"></i>
@@ -56,7 +58,7 @@
        </script> 
 
  <div class = 'container-main'>
-   <video src = '{% static "/videos/ortho-video2.mp4" %}' autoplay muted loop id = 'main-video'>
+   <video src = '{% static "/videos/ortho-video3.mp4" %}' autoplay muted loop id = 'main-video'>
    Your browser does not support the video tag
    </video> 
    <div class = 'main-text'>
@@ -80,7 +82,7 @@
 </p>
 </div>
     
-    <img class = 'techimage' src = '{% static "/images/dental-tech.jpeg" %}' ALIGN = 'right'>
+    <img class = 'techimage' src = '{% static "/images/dentist-tech.jpeg" %}' ALIGN = 'right'>
     <div class = 'techlogo-text'>  
     <i class="fas fa-atom"></i>
         <p id = 'tech-text'>With our state of the art technology such as 3D imaging, Chairside CAD/CAM systems, surgical Microsopes and Dental Microscopes, we are able to offer in-house, same day services such as crown replacements, wisdom tooth extractions, dental implants, root canal surgery and Cosmestic Surgeries </p>
@@ -91,34 +93,85 @@
     <div class = 'dentalprocedure-image'>
     <img id = 'dentalprocedure-image' src = '{% static "/images/dental-procedure.jpeg" %}' ALIGN = 'left'>
     <h1 class ='procedure-text'>Our Services</h1>
+    <div class = 'procedure-list'>
     <ul id = 'procedure-list'>
-        <li id = list-one>
+        <li id = list-dentalbonding>
             Dental Bonding
         </li> 
-        <li id = list>
+        <li id = list-veneers>
            Veneers
         </li> 
-        <li id = list>
+        <li id = list-crowns>
             Crowns
         </li> 
-        <li id = list>
+        <li id = list-contouring>
             Contouring/Reshaping
         </li> 
-        <li id = list>
+        <li id = list-braces>
             Braces
         </li> 
-        <li id = list>
+        <li id = list-composite>
            Composite Fillings
         </li> 
-        <li id = list>
+        <li id = list-implants>
             Implants
         </li> 
-        
+        <div class = 'learn-button'>
+       <button class = 'learn-more'><a id = 'learn-more' href = 'contact'>Learn More</a></button>
+    </div>
     </ul>
+    </div>
+</div>
 </div>
 
-    
+<div class = 'container-four'>
+    <div class ='insurance'>
+        <h1 id = 'insurance-header'>
+            Check your Insurance
+        </h1>
+        <p id = 'insurance-text'>We accept most insurance providers. Please contact us to confirm we are in your network.</p> </p>
+    </div>
+    <div class = 'insurance-logo'>
+        <table>
+            <tr id = 'first-row'>
+                <td><img id = 'unitedinsurance-image' src = '{% static "/images/united-healthcare.jpeg" %}'></td>
+                <td><img id = 'cigna-image' src = '{% static "/images/cigna.jpeg" %}'></td>
+                <td><img id = 'metlife-image' src = '{% static "/images/metlife.jpeg" %}'></td>
+            </tr>
+            <tr id = 'second-row'>
+                <td><img id = 'humana-image' src = '{% static "/images/humana.png" %}'></td>
+                <td><img id = 'guardian-image' src = '{% static "/images/guardian.jpeg" %}'></td>
+                <td><img id = 'delta-dental-image' src = '{% static "/images/delta-dental.jpeg" %}'></td>
+            </tr>
+            <tr id = 'third-row'>
+                <td><img id = 'careington-image' src = '{% static "/images/careington.png" %}'></td>
+                <td><img id = 'ameritas-image' src = '{% static "/images/ameritas.png" %}'></td>
+                <td><img id = 'aetna-image' src = '{% static "/images/aetna.png" %}'></td> 
+            </tr>
+            <tr id = 'fourth-row'>
+                <td><img id = 'blue-shield-image' src = '{% static "/images/blue-shield.jpeg" %}'></td>
+                <td><img id = 'blue-cross-image' src = '{% static "/images/blue-cross.jpeg" %}'></td>
+                <td><img id = 'geha-image' src = '{% static "/images/geha.png" %}'></td> 
+            </tr>
+            <tr id = 'fifth-row'>
+                <td><img id = 'lincoln-national-image' src = '{% static "/images/lincoln-national.png" %}'></td>
+                <td><img id = 'premier-dental-image' src = '{% static "/images/premier-dental.jpeg" %}'></td>
+                <td><img id = 'united-concordia-image' src = '{% static "/images/united-concordia.jpeg" %}'></td> 
+            </tr>
+        </table>
+    </div>
+</div>
 
+<div class = 'container-five'>
+    <div class = 'location-header'>
+        <i class="fas fa-map-marker"></i>
+        <h1 id = 'header'>
+            Find Us Here
+        </h1>
+    </div>
+    <div id = 'map'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.7384049849547!2d-73.9740222!3d40.767778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f1fcd66869%3A0x65d72e84d91a3f14!2sCentral%20Park%20Zoo!5e0!3m2!1sen!2sus!4v1647136084452!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 </div>
 
     

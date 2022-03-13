@@ -167,18 +167,16 @@
 
 .container-two{
     height:1450px;
-    background-color:white; 
-    overflow: hidden;
-    background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding-top:100px;
+    overflow:hidden;
+ /* background: #2980B9;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   padding-top:100px; 
 }
 
 
 .maskimage-text{
-  padding-top:125px;
+  padding-top:115px;
   text-align: center;
 }
 
@@ -186,16 +184,18 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
   margin: 0;
 }
 
 .fa-head-side-mask{
 font-size: 50px;
+color:grey;
 }
 
 .techimage{
-   padding-top: 280px;
+   padding-top: 300px;
+   height:700px;
 }
 
 
@@ -206,6 +206,7 @@ font-size: 50px;
 
 .fa-atom{
     font-size:50px;
+    color:grey;
 }
 
 
@@ -217,35 +218,157 @@ font-size: 50px;
 } 
 
  .container-three{
-    height:1000px;
+    height:400px;
+  /*  overflow: hidden; */
 } 
 
 #dentalprocedure-image{
 position:relative;
-bottom: 150px;
+bottom: 120px;
 }
 
 .procedure-text{
     text-align: center;
     text-transform: uppercase;
 }
+
+.procedure-list{
+text-align: left;
+}
 #procedure-list{
     list-style-type: circle;
-    list-style-position: inside;
+  list-style-position: inside; 
+    text-align: center; 
+   
+
     
 }
 
-#list-one{
-    padding-top:10px;
+#list-dentalbonding{
+   padding-top:10px; 
     font-size:18px;
-    text-align: center;
-    padding-bottom:10px;
+    padding-right: 60px;
+ /*   padding-bottom:10px; */
     font-family: 'Open Sans', sans-serif;
+  
+} 
+#list-veneers{
+  /*  padding-top:10px; */
+    font-size:18px;
+    padding-right:120px;
+  /*  text-align: center; */
+ /*   padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+  
 } 
 
-#list{
+#list-crowns{
     font-size:18px;
+  /*  text-align: center; */
+  /*  padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+    padding-right:125px;
+}
+#list-contouring{
+    font-size:18px;
+  /*  text-align: center; */
+  /*  padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#list-braces{
+    font-size:18px;
+  /*  text-align: center; */
+  /*  padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 130px;
+}
+#list-composite{
+    font-size:18px;
+  /*  text-align: center; */
+  /*  padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 34px;
+}
+#list-implants{
+    font-size:18px;
+  /*  text-align: center; */
+  /*  padding-bottom:10px; */
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 110px;
+}
+
+.learn-button{
+    padding-top:20px;
     text-align: center;
+}
+.learn-more{
+    background-color: gold;
+    border-radius: 20px;
+    padding-top:10px;
     padding-bottom:10px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#learn-more{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container-four{
+    padding-top: 32px;
+    height:1200px;
+    background-color: white;
+   
+}
+
+#insurance-header{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#insurance-text{
+    padding-top:10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.insurance-logo{
+    text-align: center;
+    padding-left:40px;
+    font-size: 10px;
+} 
+
+#first-row{
+    font-size: 10px;
+}
+
+ #guardian-image{
+    font-size: 4px;
+} 
+
+.container-five{
+    padding-top:40px;
+    height: 700px;
+    background-color: white;
+}
+
+.fa-map-marker{
+    font-size: 40px;
+}
+
+.location-header{
+text-align: center;
+}
+
+#header{
+padding-top:15px;
+}
+#map iframe{
+    padding-top:10px;
+    width:100%;
+}
+ 

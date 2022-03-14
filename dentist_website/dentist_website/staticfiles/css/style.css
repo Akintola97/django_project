@@ -162,7 +162,12 @@
     padding-right:10px;
     padding-top:5px;
     padding-bottom: 5px;
+}
 
+#book-online{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
 }
 
 .container-two{
@@ -218,7 +223,7 @@ color:grey;
 } 
 
  .container-three{
-    height:400px;
+    height:450px;
   /*  overflow: hidden; */
 } 
 
@@ -320,7 +325,7 @@ text-align: left;
 
 .container-four{
     padding-top: 32px;
-    height:1200px;
+    height:875px;
     background-color: white;
    
 }
@@ -331,29 +336,56 @@ text-align: left;
 }
 
 #insurance-text{
-    padding-top:10px;
+    padding-top:20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
 .insurance-logo{
     text-align: center;
-    padding-left:40px;
+    padding-top:30px;
+    padding-left:175px;
     font-size: 10px;
 } 
 
-#first-row{
-    font-size: 10px;
+
+ #cigna-image{
+    width: 250px;
+} 
+ #metlife-image{
+    width: 250px;
+} 
+ #humana-image{
+    width: 250px;
+} 
+ #guardian-image{
+    width: 225px;
+} 
+ #delta-dental-image{
+    width: 225px;
+} 
+
+#careington-image{
+    width:250px;
+}
+#ameritas-image{
+    width:300px;
+}
+#aetna-image{
+    width:200px;
+}
+#geha-image{
+    width:200px;
+}
+#lincoln-national-image{
+    width:250px;
 }
 
- #guardian-image{
-    font-size: 4px;
-} 
-
 .container-five{
-    padding-top:40px;
-    height: 700px;
+    padding-top:30px;
+    height: 630px;
     background-color: white;
+    overflow: hidden;
 }
 
 .fa-map-marker{
@@ -370,5 +402,54 @@ padding-top:15px;
 #map iframe{
     padding-top:10px;
     width:100%;
+    height:500px;
+    
 }
+ .container-six{
+     height:165px;
+     
+ }
+
+ .new-patients{
+     text-align: center;
+     overflow: hidden;
+     padding-top:40px;
+ }
+
+.patient-button{
+    padding-top:10px;
+}
+
+ .newpatient-header{
+    font-family:'Source Sans Pro', sans-serif; 
+ }
+
+ #newpatient-text{
+    padding-top:10px;
+ }
+
+ #newpatient-appointment{
+     background-color: gold;
+     border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+ }
+
+ #newpatient-link{
+     text-decoration: none;
+     text-transform: uppercase;
+     color:black;
+     font-family:'Source Sans Pro', sans-serif; 
+     font-size: 15px;
+ }
+
+.container-seven{
+    height:400px;
+    background-color: aqua;
+}
+
+
  

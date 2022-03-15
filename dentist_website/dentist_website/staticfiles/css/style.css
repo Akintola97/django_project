@@ -382,6 +382,52 @@ text-align: left;
 }
 
 .container-five{
+    height:250px;
+    
+}
+
+.new-patients{
+    text-align: center;
+    overflow: hidden;
+    padding-top:40px;
+}
+
+
+
+#newpatient-header{
+   font-family:'Source Sans Pro', sans-serif; 
+   font-size:50px;
+}
+
+#newpatient-text{
+   padding-top:10px;
+   font-size:30px;
+}
+
+.patient-button{
+padding-top: 20px;
+}
+
+
+#newpatient-appointment{
+    background-color: gold;
+    border-radius: 20px;
+   border:gold;
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:5px;
+   padding-bottom: 5px;
+}
+
+#newpatient-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size: 15px;
+}
+
+.container-six{
     padding-top:30px;
     height: 630px;
     background-color: white;
@@ -402,54 +448,12 @@ padding-top:15px;
 #map iframe{
     padding-top:10px;
     width:100%;
-    height:500px;
+    height:508px;
+    overflow: hidden;
     
 }
- .container-six{
-     height:165px;
-     
- }
-
- .new-patients{
-     text-align: center;
-     overflow: hidden;
-     padding-top:40px;
- }
-
-.patient-button{
-    padding-top:10px;
-}
-
- .newpatient-header{
-    font-family:'Source Sans Pro', sans-serif; 
- }
-
- #newpatient-text{
-    padding-top:10px;
- }
-
- #newpatient-appointment{
-     background-color: gold;
-     border-radius: 20px;
-    border:gold;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom: 5px;
- }
-
- #newpatient-link{
-     text-decoration: none;
-     text-transform: uppercase;
-     color:black;
-     font-family:'Source Sans Pro', sans-serif; 
-     font-size: 15px;
- }
 
 .container-seven{
     height:400px;
-    background-color: aqua;
 }
 
-
- 

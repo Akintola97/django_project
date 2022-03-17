@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_static_jquery',
     'base',
+    'shop',
 ]
 
 MIDDLEWARE = [

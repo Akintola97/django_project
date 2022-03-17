@@ -1,3 +1,4 @@
+
 {% load static %}
 
 
@@ -32,11 +33,11 @@
         <a id = 'logo-link' href = 'home.html'><h2 class = 'dentist-name'>Orthodontist</h2></a>
         </div>
   <ul class = 'nav-tabs'>
-        <li id = 'nav-link'><a href = 'about'>About Us</a></li>
-        <li id = 'nav-link'><a href = 'services'>Services</a></li>
-        <li id = 'nav-link'><a href = 'contact'>Contact</a></li>
-        <li id = 'nav-link'><a href = 'store'>Shop</a></li>
-        <li id = 'nav-link'><a href = 'appointment'>Appointment</a></li>
+        <li id = 'nav-link'><a href = 'about.html'>About Us</a></li>
+        <li id = 'nav-link'><a href = 'services.html'>Services</a></li>
+        <li id = 'nav-link'><a href = 'contact.html'>Contact</a></li>
+        <li id = 'nav-link'><a href = 'store.html'>Shop</a></li>
+        <li id = 'nav-link'><a href = 'appointment.html'>Appointment</a></li>
         
 
         <div class = 'bars'>
@@ -44,12 +45,14 @@
         </div>
     </ul> 
     </nav> 
+
  <nav id = 'vertical-nav'>
         <ul class = 'vertical-tabs'>
-            <li id = 'vertical-links'><a class = 'vertical-ref-about' href = 'about'>About Us</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-service'  href = 'services'>Services</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-contact' href = 'contact'>Contact</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-appointment' href = 'contact'>Appointment</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-about' href = 'about.html'>About Us</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-service'  href = 'services.html'>Services</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-contact' href = 'contact.html'>Contact</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-store' href = 'store.html'>Store</a></li>
+            <li id = 'vertical-links'><a class = 'vertical-ref-appointment' href = 'contact.html'>Appointment</a></li>
     </nav>
 
  
@@ -164,11 +167,16 @@
 
 
 <div class = 'container-five'>
-<div class = 'new-patients'>
+<div class = 'patient-row'>
+<div class = 'column' id = 'patient-column'>
+<!-- <div class = 'new-patients'> -->
 <h2 id = 'newpatient-header'>Now Welcoming New Patients</h2>
 <p id = 'newpatient-text'>Set up an appointment, we can't wait to meet you</p>
+</div>
+<div class = 'column' id = 'patientbutton-column'>
 <div class = 'patient-button'>
 <button id = 'newpatient-appointment'><a id = 'newpatient-link' href = 'appointment'>Appointment</button></a>
+</div>
 </div>
 </div>
 </div>
@@ -183,8 +191,43 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.7384049849547!2d-73.9740222!3d40.767778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f1fcd66869%3A0x65d72e84d91a3f14!2sCentral%20Park%20Zoo!5e0!3m2!1sen!2sus!4v1647136084452!5m2!1sen!2sus" width="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </div>
+<footer>
 <div class = 'container-seven'>
+    <div class = 'footer-row'>
+        <div class = 'column' id = 'info-column'> 
+        <h1 id = 'footer-info'>Information</h1>
+        <p id = 'address'>East 64th Street <br>New York, NY 10021</p>
+        <div class = 'navigation'>
+        <button id = 'navigation-button'><a id = 'navigation-link' href = 'https://goo.gl/maps/qpYiHy8nLZ94jBiU7'>Get directions<p id = 'get-directions'></p></a></button>
+    </div>
+    </div>
+
+    <div class = 'column' id = 'services-column'>
+        <h1 id = 'footer-services'>Services</h1>
+        <ul id = footerservices-list>
+            <li>General</li>
+            <li>Dental Bonding</li>
+            <li>Veeners</li>
+            <li>Crowns</li>
+            <li>Contouring/Reshaping</li>
+            <li>Braces</li>
+            <li>Composite Fillings</li>
+            <li>Implants</li>
+
+        </ul>
+        </div>
+    <div class = 'column' id = 'social-column'>  
+        <h1 id = 'footer-social'>Social</h1>
+        <ul id = 'socialplatforms-list'>
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+
+        </ul>
+    </div>
+    </div>
 </div>
+</footer>
 
     
 
@@ -192,3 +235,4 @@
 
 </body>
 </html>
+

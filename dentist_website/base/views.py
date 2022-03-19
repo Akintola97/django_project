@@ -6,6 +6,12 @@ def home(request):
     return render(request, 'base/home.html')
 def about(request):
     return render(request, 'base/about.html')
+def contact (request):
+    return render(request, 'base/contact.html')
+def appointment (request):
+    return render(request, 'base/appointment.html')
+def services (request):
+    return render(request, 'base/services.html')
 def shop(request):
    return render(request, 'shop/main.html')
 def checkout(request):

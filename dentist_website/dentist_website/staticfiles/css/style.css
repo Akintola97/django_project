@@ -556,3 +556,49 @@ padding-top:15px;
     color:gold;
 
 }*/
+
+/* Shop page */
+svg{
+    height:25px;
+}
+
+
+.badge{
+    padding-left: 9px;
+    padding-right:9px;
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;
+}
+
+
+#lblCartCount{
+    font-size:12px;
+    background:#ff0000;
+    color:#fff;
+    padding:0 5px; 
+    vertical-align:top;
+    margin-left: -10px;
+}
+
+#container-main{
+    padding-top:25px;
+}
+
+
+
+.box-element{
+    box-shadow: hsL(0, 0%, 80%) 0 0 16px;
+    background-color:#fff;
+    border-radius:4px;
+    padding:10px;
+    padding-top:20px;
+}
+
+#cartrow-header{
+    padding-top:50px;
+}
+
+#rowcart-body{
+    padding-top:10px;
+}

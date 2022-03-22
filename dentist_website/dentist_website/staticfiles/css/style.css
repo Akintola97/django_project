@@ -602,3 +602,15 @@ svg{
 #rowcart-body{
     padding-top:10px;
 }
+
+
+/* Checkout-page */
+.form-field{
+    width:250px;
+    display:inline-block;
+    padding:5px;
+}
+
+.hidden{
+    display: none;
+}

@@ -13,7 +13,8 @@ def appointment (request):
 def services (request):
     return render(request, 'base/services.html')
 def shop(request):
-   return render(request, 'shop/main.html')
+    
+    return render(request, 'shop/main.html')
 def checkout(request):
     return render(request, 'shop/checkout.html')
 def cart(request):

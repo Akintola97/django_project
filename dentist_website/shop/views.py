@@ -1,11 +1,17 @@
 from django.shortcuts import render
-
+from .models import *
 # Create your views here.
 def shop(request):
-    return render(request, 'shop/main.html')
+    products = Product.objects.all()
+    context = {'products':products}
+    return render(request, 'shop/main.html',context)
 def checkout(request):
-    return render(request, 'shop/checkout.html')
+    context = {}
+    return render(request, 'shop/checkout.html', context)
 def cart(request):
-    return render(request, 'shop/cart.html')
+    context = {}
+    return render(request, 'shop/cart.html',context)
 def store(request):
-    return render(request, 'shop/main.html')
+    products = Product.objects.all()
+    context = {'products':products}
+    return render(request, 'shop/main.html', context)

@@ -13,8 +13,18 @@
     right: 0;
     top: 0;
     height: 60px;
+    background:transparent;
   /* background-color:gray; */
 }
+
+/* #navbar.active{
+    background:linear-gradient(rgb(66,2,194)0%, rgb(0,78,194)100%);}
+*/
+
+#navbar.scrolled{
+    background:linear-gradient(rgb(66,2,194)0%, rgb(0, 78, 194)100%);
+}
+
 
 .logo{
     float: left;
@@ -124,7 +134,8 @@
   border: 1px black solid;
   color:white;
 }
-  
+
+
  .container-main{
     height:650px;
     overflow: hidden;

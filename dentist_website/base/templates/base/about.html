@@ -5,6 +5,16 @@
  
  
      {% block content %}
-    <div class = ''></div>
+    <div class = 'container' id = 'first-about'>
+        <img class = 'physician-patient' src = '{% static "/images/doctor-patient.jpeg"%}'>
+        <div class = 'about-text'>
+            <h4 id = 'abouttext-left'>
+                Get to know us
+            </h4>
+            <div class = 'schedule-about'>
+            <button id = 'schedule'><a id = 'book-online' href = 'appointment.html'>Schedule Visit</button></a>
+        </div>
+        </div>
+    </div>
+    <div class = 
      {% endblock content %}
-  

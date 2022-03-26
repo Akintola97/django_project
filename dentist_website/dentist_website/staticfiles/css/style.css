@@ -611,15 +611,30 @@ padding-top:15px;
 #second-about{
     height:600px;
 }
+
+#second-about .column{
+    
+    float:left;
+    width:50%;
+}
+
 .about-header{
     padding-top:20px;
 }
 
 #about-characteristics{
-    font-size:40px;
+    font-size:30px;
     font-family: 'Open Sans', sans-serif;
 
 }
+
+#about-introduction{
+    padding-top:20px;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
 
 #word-switch:after{
     content: 'Trust';

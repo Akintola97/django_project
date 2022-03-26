@@ -567,6 +567,7 @@ padding-top:15px;
 /* About page */
 #first-about{
     height:650px;
+    overflow: none;
     
    
 }
@@ -605,6 +606,47 @@ padding-top:15px;
     padding-top: 35px;
     padding-left:70px;
     text-align: left;
+}
+
+#second-about{
+    height:600px;
+}
+.about-header{
+    padding-top:20px;
+}
+
+#about-characteristics{
+    font-size:40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#word-switch:after{
+    content: 'Trust';
+    color:gold;
+    animation: animate infinite linear 10s;
+   
+}
+
+
+@keyframes animate{
+    20%{
+        content: 'Culture';
+        color:gold;
+    }
+
+   40%{
+        content: 'Confidence';
+        color:gold;
+    }
+  60%{
+        content: 'Connections';
+        color:gold;
+    }
+    80%{
+        content: 'Relationships';
+        color:gold;
+    }
 }
 
 /* Shop page */

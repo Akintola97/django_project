@@ -668,7 +668,8 @@ font-family: 'Open Sans', sans-serif;
 
 
 #third-about{
-    height:900px;
+    height:1300px;
+    
     
 }
 
@@ -689,14 +690,43 @@ font-family: 'Open Sans', sans-serif;
     transition: transform .2s 
 }
 #third-about .meet-office .column:hover{
-   transform: scale(1.2)
+   transform: scale(1.2);
+   opacity: 1;
 }
+
 
 #third-about .column .card{
     border: 1px solid gold;
 } 
 
+.overlay{
+    position:absolute;
+    top: 70px;
+    bottom:0;
+    left:70px;
+    right:0;
+    height:22vw;
+    width:18rem;
+    opacity:0;
+    background-color:none;
+}
 
+#third-about .meet-office .column:hover .overlay{ 
+   opacity: 1;
+    border: 1px solid gold;
+ }
+
+.card-text{
+    color:black;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /* Shop page */
 svg{
@@ -755,3 +785,4 @@ svg{
 .hidden{
     display: none;
 }
+

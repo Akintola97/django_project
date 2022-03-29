@@ -640,9 +640,8 @@ font-family: 'Open Sans', sans-serif;
 
 #word-switch:after{
     content: 'Trust';
-    color:gold;
+    color:black;
     animation: animate infinite linear 10s;
-   
 }
 
 
@@ -678,6 +677,57 @@ font-family: 'Open Sans', sans-serif;
     font-family: 'Satisfy', cursive;
     font-size: 20px;
 }
+#goals{
+    height:500px;
+}
+
+
+.convenience{
+    padding-left:10px;
+}
+
+#convenience-header{
+    font-size:40px;
+    text-align: center;
+}
+
+#goals .column{
+    float:left;
+    width:20%;
+}
+
+
+.convenience-goals{
+    padding-top:100px;  
+}
+
+#icon-img{
+    text-align: center;
+    font-size: 35px;
+}
+
+#relationships{
+    padding-left: 10px;
+}
+
+#trust{
+    padding-top:10px;
+}
+
+#culture{
+    padding-top:10px;
+}
+#confidence{
+    padding-top:10px;
+}
+
+#connection{
+    padding-top:10px;
+}
+
+#loyalty{
+    padding-top:10px;
+}
 
 #third-about{
     height:1300px;
@@ -686,12 +736,13 @@ font-family: 'Open Sans', sans-serif;
 }
 
  .meet-office{
-    padding-top:50px;
+    padding-top:20px;
+    
 } 
 
 .member-header{
     font-size:30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #third-about .meet-office .column{
@@ -755,56 +806,7 @@ font-family: 'Open Sans', sans-serif;
     font-size:40px;
 }
 
-#forth-about{
-    height:800px;
-}
 
-
-.convenience{
-    padding-left:10px;
-}
-
-#convenience-header{
-    font-size:40px;
-}
-
-#forth-about .column{
-    float:left;
-    width:20%;
-}
-
-
-.convenience-goals{
-    padding-top:100px;  
-}
-
-#icon-img{
-    text-align: center;
-    font-size: 35px;
-}
-
-#relationships{
-    padding-left: 10px;
-}
-
-#trust{
-    padding-top:10px;
-}
-
-#culture{
-    padding-top:10px;
-}
-#confidence{
-    padding-top:10px;
-}
-
-#connection{
-    padding-top:10px;
-}
-
-#loyalty{
-    padding-top:10px;
-}
 
 
 

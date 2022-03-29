@@ -661,7 +661,7 @@ font-family: 'Open Sans', sans-serif;
         color:gold;
     }
     80%{
-        content: 'Relationships';
+        content: 'loyalty';
         color:gold;
     }
 }
@@ -767,6 +767,47 @@ font-family: 'Open Sans', sans-serif;
 #convenience-header{
     font-size:40px;
 }
+
+#forth-about .column{
+    float:left;
+    width:20%;
+}
+
+
+.convenience-goals{
+    padding-top:100px;  
+}
+
+#icon-img{
+    text-align: center;
+    font-size: 35px;
+}
+
+#relationships{
+    padding-left: 10px;
+}
+
+#trust{
+    padding-top:10px;
+}
+
+#culture{
+    padding-top:10px;
+}
+#confidence{
+    padding-top:10px;
+}
+
+#connection{
+    padding-top:10px;
+}
+
+#loyalty{
+    padding-top:10px;
+}
+
+
+
 /* Shop page */
 svg{
     height:25px;

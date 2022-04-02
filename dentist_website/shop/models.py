@@ -19,7 +19,7 @@ class Product(models.Model):
     image = models.ImageField(null = True, blank = True)
     
 
-    def str (self):
+    def __str__(self):
       return self.name
 
 

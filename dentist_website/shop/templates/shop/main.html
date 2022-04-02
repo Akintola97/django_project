@@ -55,11 +55,11 @@
               <div class = 'col-4'>
                <div class = 'product'>
                    <div class="card" style="width: 18rem;">
-                      <img src="{{product.imageURL}}" class="card-img-top" alt="..."> 
+                      <img src="{{product.image.url}}" class="card-img-top" alt="..."> 
                        <div class="card-body">
                          <h5 class="card-title">{{product.name}}</h5>
                          <a href="#" class="btn btn-primary">Add to Cart</a>
-                        <a class='btn btn-outline-success' href = '#'>View</a>
+                        <a class='btn btn-outline-success' href = '{{product.image.url}}'>View</a>
                         <h4 class = 'cost'>$20</h4>
                         </div>
                      </div>

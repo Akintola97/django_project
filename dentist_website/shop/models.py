@@ -8,7 +8,7 @@ class Customer(models.Model):
     name = models.CharField(max_length = 200, null = True)
     email = models.CharField(max_length = 200, null = True)
     
-    def str (self):
+    def __str__ (self):
         return self.name
 
     
@@ -30,7 +30,7 @@ class Order(models.Model):
     complete = models.BooleanField(default = False, null = True, blank = False)
     transaction_id = models.CharField(max_length = 200, null = True)
     
-    def str (self):
+    def __str__(self):
         return str(self.id)
 
 
@@ -49,6 +49,6 @@ class ShippingAddress(models.Model):
     zipcode = models.CharField(max_length = 200, null = False)
     date_added = models.DateTimeField(auto_now_add = True)
     
-    def str (self):
+    def __str__(self):
         return self.address
     

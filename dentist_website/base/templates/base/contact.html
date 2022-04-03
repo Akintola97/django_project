@@ -4,5 +4,54 @@
  
  
      {% block content %}
-    <div class = ''></div>
+    <div class = 'container' id = 'first-contact'>
+        <img class = 'contact-image' src = '{% static "/images/group-dentists.jpeg"%}'>
+    </div>
+
+    <div class = 'container' id = 'first-contactcont'>
+        <div class = 'row' id = 'contact-row'>
+            <div class = 'column' id = 'leftside-column'>
+                <i class="fas fa-map-marker-alt"></i>
+                <p id = 'contact-location'>Location</p>
+                <p id = 'contact-address'>East 64th Street, <br> New York, NY 10021 </p>
+                <div class = 'contact-electronic'>
+                    <h3 id = 'contact-call'>(111)333-4444</h3>
+                    <p id = 'contact-mail'>dds.example.com</p>
+                </div>
+            </div>
+            <div class = 'column' id = 'rightside-column'>
+                <i class="fas fa-clock"></i>
+                <p id = 'contact-hours'>Open</p>
+                <p id = 'contact-open'> Mon 9:00am - 5:00pm </p>
+                <p id = 'contact-open'> Tue 9:00am - 5:00pm </p>
+                <p id = 'contact-open'> Wed 9:00am - 5:00pm </p>
+                <p id = 'contact-open'> Thu 9:00am - 5:00pm </p>
+                <p id = 'contact-open'> Fri 9:00am - 5:00pm </p>
+                <p id = 'contact-open'> Sat 12:00pm - 4:00pm </p>
+                </div>
+            </div>
+        </div>
+   <div class = 'container' id = 'second-contact'>
+    <div class = 'visit'>
+        <h3 id = 'visit-header'>
+            Let's get you in here for an appointment! &#128513
+        </h3>
+    </div>
+   </div>
+
+   <div class = 'container' id = 'third-contact'>
+       <div class = 'row' id = 'thirdcontact-row'>
+           <div class = 'column' id = 'calender-image'>
+            <i class="fas fa-calendar-check"></i>
+           </div>
+           <div class = 'column' id= 'appointment-column'>
+            <h3 id = 'book-appointent'>
+                BOOK YOUR APPOINTMENT 
+            </h3>
+            <p id = 'bookappointent-text'>
+                You can book appointments on our website, by email or by giving us a call. We are here to answer any quesions you have pertaining to the office. If you are having an emergency, call 911.
+            </p>
+           </div>
+       </div>
+   </div>
      {% endblock content %}

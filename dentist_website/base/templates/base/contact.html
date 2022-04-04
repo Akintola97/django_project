@@ -40,18 +40,27 @@
    </div>
 
    <div class = 'container' id = 'third-contact'>
-       <div class = 'row' id = 'thirdcontact-row'>
-           <div class = 'column' id = 'calender-image'>
-            <i class="fas fa-calendar-check"></i>
-           </div>
-           <div class = 'column' id= 'appointment-column'>
-            <h3 id = 'book-appointent'>
-                BOOK YOUR APPOINTMENT 
-            </h3>
-            <p id = 'bookappointent-text'>
-                You can book appointments on our website, by email or by giving us a call. We are here to answer any quesions you have pertaining to the office. If you are having an emergency, call 911.
-            </p>
-           </div>
+       <div class = 'appointment-form'>
+           <form action = '{% url "contact" %}' method = 'post'>
+               {% csrf_token %}
+               <div class = 'row' id = 'form-name'>
+                       <input class = 'name-form' type = 'text' name = 'patron-name' placeholder = 'FULL-NAME'>
+                   </div>
+               </div>
+               <div class = 'row' id = 'form-email'>
+                       <input class = 'email-form' type = 'email' name = 'patron-email' placeholder = 'EMAIL'>
+                   </div>
+                   <div class = 'row' id = 'form-subject'>
+                    <input class = 'subject-form' type = 'text' name = 'patron-subject' placeholder = 'SUBJECT'>
+                   </div>
+                   <div class = 'row' id = 'message'>
+                    <textarea class= 'message-form' name = 'patron-message' placeholder = 'HOW MAY WE HELP YOU?'></textarea> 
+                   </div>
+                   <div class = 'row' id = 'form-submit'>
+                    <button id = 'formsubmit-button'><a id = 'formsubmit-characters' href = '#'>SUBMIT</button></a></h2>
+                   </div>
+               </div>
+           </form>
        </div>
    </div>
      {% endblock content %}

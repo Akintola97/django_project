@@ -486,7 +486,7 @@ padding-top:15px;
     text-align: center;
 }
 
-.column{
+.container-seven .column{
     float:left;
     width:33.3%;
 
@@ -1042,37 +1042,103 @@ color:black;
     padding-top:100px;
 }
 
-#third-contact{
-    height:500px;
-    font-family: 'Raleway', sans-serif;
-    position:relative;
-}
 
-#thirdcontact-row{
-    position:absolute;
-    top:0;
+#third-contact{
+    height:600px;
+   /* background:url('/staticfiles/images/dental-lobby.jpeg'), no-repeat; */
+
     
 }
 
-#third-contact .column{
-    float:left;
-    width:50%;
+
+
+
+#form-name{
+    text-align: center;
+    
+}
+#form-name ::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name-form{
+    font-size: 40px;
+}
+
+
+#form-email{
+    text-align: center;
+    padding-top:30px;
+}
+
+#form-email ::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.email-form{
+    font-size: 40px;
+}
+
+#form-subject{
+    text-align: center;
+    padding-top:30px;
    
 }
 
-/* #calender-image{
-    padding-left:100px;
+#form-subject ::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.subject-form{
+    font-size: 40px;
+}
+
+
+#message{
+    text-align: center;
+    padding-top:30px;
+  
+}
+
+
+#message ::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.message-form{
     font-size:40px;
 }
 
-#appointment-column{
-    padding-right: 200px;
-    font-size: 20px;
-} */
+
+#form-submit{
+    text-align: center;
+    padding-top:30px;
+}
+
+#formsubmit-button{
+    background-color:gold;
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
 
 
-
-
+#formsubmit-characters{
+    text-decoration: none;
+    color:black;
+}
 /* Shop page */
 svg{
     height:25px;

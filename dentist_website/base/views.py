@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.core.mail import send_mail
 # Create your views here.
 
 def home(request):
@@ -7,17 +7,27 @@ def home(request):
 def about(request):
     return render(request, 'base/about.html',{})
 def contact (request):
-  #  if request.method == 'POST':
-   #   patron_email = request.POST['patron-email']
-    #    patron_subject = request.POST['patron-subject']
-     #   patron_message = request.POST['patron-message']
-      #  return render(request, 'contact.html')
-    #else: 
-       # return render(request, 'base/contact.html')
-    
-    
-    
-    return render(request, 'base/contact.html', {})
+   if request.method == 'POST':
+      patron_name = request.POST['patron-name'] 
+      patron_email = request.POST['patron-email']
+      patron_subject = request.POST['patron-subject']
+      patron_message = request.POST['patron-message']
+     
+                    
+                    
+                  #send an emai
+      #send_mail(
+       # patron_name, #name
+        #patron_subject, # subject
+        #patron_message, #message
+        #patron_email, #from email
+        #['akinoyetayo@rocketmail.com'], #To Email
+        #)
+      #return render(request, 'contact.html',{'patron_name':patron_name})
+  
+   #else:
+   return render(request, 'base/contact.html')
+ 
 def appointment (request):
     return render(request, 'base/appointment.html', {})
 def services (request):

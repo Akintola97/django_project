@@ -1230,12 +1230,15 @@ svg{
 }
 
 
-
-/*Cart Page 
-.product-img{
+.image-product{
+    padding-bottom: 70px;
 
 }
-*/
+.image-product .product-img{
+    height:120px;
+    
+    
+}
 
 
 /* Checkout-page */

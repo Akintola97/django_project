@@ -945,13 +945,22 @@ color:black;
     text-align: center;
     padding-top:100px;
    font-family: 'Raleway', sans-serif;
+   font-size: 20px;
 }
 
 #serviceprocedure-body{
     text-align: center;
-    padding-top:10px;
+    padding-top:13px;
     font-family: 'Raleway', sans-serif;
 }
+
+.services-appointmentbtn{
+    padding-top:13px;
+}
+.services-appointmentbtn #book-online{
+    font-size: 13px;
+}
+
 
 
 

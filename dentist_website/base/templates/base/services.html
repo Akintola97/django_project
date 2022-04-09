@@ -4,5 +4,15 @@
  
  
      {% block content %}
-    <div class = ''></div>
+    <div class = 'container' id = 'first-services'>
+        <div class = 'procedure-image'>
+            <img class = 'img-dentalprocedure' src = '{% static "/images/services-procedure.jpeg"%}'>
+        </div>
+    </div>
+    <div class = 'container' id = 'firstservice-cont'>
+        <div class = 'serviceprocedure-header'>
+            <h3>Here at DDS we offer services from prophylaxis to surgical implants, all at our in house location.</h3>
+            <p id = 'serviceprocedure-body'>We accomodate all ages, from kids to senior citizens, our staff is fully prepared to help keep a smile on your face.</p>
+        </div>
+    </div>
      {% endblock content %}

@@ -688,7 +688,7 @@ padding-top:15px;
 }
 
 #visit-comment{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 #goals{
@@ -779,7 +779,8 @@ padding-top:15px;
 
 
 #third-about .column .card{
-    border: 1px solid grey;
+   /* border: 1px solid grey; */
+   border-radius: 50%;
 } 
 
 .overlay{
@@ -796,7 +797,7 @@ padding-top:15px;
 
 #third-about .meet-office .column:hover .overlay{ 
    opacity: 1;
-    border: 1px solid grey;
+  /*  border: 1px solid grey; */
  }
 
 .card-text{
@@ -923,6 +924,40 @@ font-size: 15px;
 text-decoration: none;
 color:black;
 }
+
+
+/* Services-page */
+
+#first-services{
+    height:625px;
+}
+
+.img-dentalprocedure{
+    height:625px;
+    width: 100%;
+}
+
+#firstservice-cont{
+    height:200px;
+}
+
+.serviceprocedure-header{
+    text-align: center;
+    padding-top:100px;
+   font-family: 'Raleway', sans-serif;
+}
+
+#serviceprocedure-body{
+    text-align: center;
+    padding-top:10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
 
 /* Contact-page */
 

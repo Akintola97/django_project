@@ -1296,3 +1296,10 @@ svg{
     display: none;
 }
 
+.checkout-image .checkout-img{
+    height:30px;
+}
+
+#checkout-row .price-tag{
+   text-align: center;
+}

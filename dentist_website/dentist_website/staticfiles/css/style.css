@@ -130,8 +130,7 @@
   color:white;
 }
 
-
- .container-main{
+.container-main{
     height:650px;
     overflow: hidden;
 } 
@@ -139,6 +138,12 @@
 #main-video{
    width:100%;
 } 
+
+
+
+
+
+
 
 
 .main-text{
@@ -929,11 +934,11 @@ color:black;
 /* Services-page */
 
 #first-services{
-    height:625px;
+    height:640px;
 }
 
 .img-dentalprocedure{
-    height:625px;
+    height:640px;
     width: 100%;
 }
 

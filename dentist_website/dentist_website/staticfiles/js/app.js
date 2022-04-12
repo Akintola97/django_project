@@ -1,4 +1,4 @@
- var updateButton = document.getElementsByClassName('addcart-btn');
+var updateButton = document.querySelector('update.cart');
 
  for (var i = 0; i < updateButton.length; i++ ){
     updateButton[i].addEventListener('click', function(){
@@ -7,4 +7,6 @@
         console.log('productId:', productId, 'action:', action)
     })
 } 
+
+
 

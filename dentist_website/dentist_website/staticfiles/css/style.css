@@ -140,19 +140,51 @@
 } 
 
 
+/* Navigation responsitivity */
+@media(max-width:2560px){
+    .fa-tooth{
+        color:white;
+        font-size: 30px;
+    }
 
 
+    #logo-link, .dentist-name{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size:30px;
+}
+.nav-tabs a{
+   text-decoration: none;
+   color:black;
+ font-family:'Source Sans Pro', sans-serif;
+ font-size:30px; 
+}
+}
 
+    
 
+/* video responsitivity */
+@media(max-width:2560px){
+    .container-main{
+        height:1050px;
+        overflow: hidden;
+        
+    }
+
+    #main-video{
+        width:100%;
+    }
+}
 
 
 .main-text{
     position:relative;
-    bottom:80%;
+    
     text-align: left;
     padding-left: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-  
+    background-color: red;
 }
 
 #maintext-left{
@@ -189,6 +221,36 @@
     color:black;
     font-family:'Source Sans Pro', sans-serif; 
 }
+
+
+/* Text within video responsitivity */
+@media(max-width: 2560px){
+    .main-text{
+        position:relative;
+        bottom:50%;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+      
+    }
+
+
+#maintext-left{
+    text-transform: uppercase;
+    font-size:60px;
+    color:rgba(0,0,0,.7)
+}
+#maintext-second{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:60px;
+    color:rgba(0,0,0,.7)
+}
+}
+
+
+
+
 
 .container-two{
     height:1450px;
@@ -241,6 +303,27 @@ color:grey;
     padding-top:40px;
     margin: 0;
 } 
+
+@media (max-width: 2560px){
+  
+    .container-two{
+        height:1450px;
+        overflow:hidden;
+     /* background: #2980B9;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-bottom: 100px;
+    }
+  
+
+}
+
+
+
+
+
+
+
 
  .container-three{
     height:450px;

@@ -102,6 +102,7 @@
 <div class = 'container-three'>
     <div class = 'dentalprocedure-image'>
     <img id = 'dentalprocedure-image' src = '{% static "/images/dental-procedure.jpeg" %}' ALIGN = 'left'>
+    <div class = 'procedures'>
     <h1 class ='procedure-text'>Our Services</h1>
     <div class = 'procedure-list'>
     <ul id = 'procedure-list'>
@@ -126,6 +127,7 @@
         <li id = list-implants>
             Implants
         </li> 
+    </div>
         <div class = 'learn-button'>
        <button class = 'learn-more'><a id = 'learn-more' href = 'contact'>Learn More</a></button>
     </div>
@@ -143,7 +145,7 @@
         <p id = 'insurance-text'>We accept most insurance providers. Please contact us to confirm we are in your network.</p> </p>
     </div>
     <div class = 'insurance-logo'>
-        <table>
+        <table id = 'insurance-table'>
             <tr id = 'first-row'>
                 <td><img id = 'unitedinsurance-image' src = '{% static "/images/united-healthcare.jpeg" %}'></td>
                 <td><img id = 'cigna-image' src = '{% static "/images/cigna.jpeg" %}'></td>
@@ -175,19 +177,16 @@
 
 
 <div class = 'container-five'>
-<div class = 'patient-row'>
-<div class = 'column' id = 'patient-column'>
 <div class = 'new-patients'> 
 <h2 id = 'newpatient-header'>Now Welcoming New Patients</h2>
 <p id = 'newpatient-text'>Set up an appointment, we can't wait to meet you</p>
 </div>
-<div class = 'column' id = 'patientbutton-column'>
 <div class = 'patient-button'>
 <button id = 'newpatient-appointment'><a id = 'newpatient-link' href = 'appointment'>Appointment</button></a>
 </div>
 </div>
-</div>
-</div>
+
+
 
 
 <div class = 'container-six'>

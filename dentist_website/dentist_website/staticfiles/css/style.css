@@ -162,6 +162,47 @@
 }
 }
 
+@media(max-width:1440px){
+    .fa-tooth{
+        color:white;
+        font-size: 20px;
+    }
+
+
+    #logo-link, .dentist-name{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size:20px;
+}
+.nav-tabs a{
+   text-decoration: none;
+   color:black;
+ font-family:'Source Sans Pro', sans-serif;
+ font-size:20px; 
+}
+}
+@media(max-width:1024px){
+    .fa-tooth{
+        color:white;
+        font-size: 15px;
+    }
+
+
+    #logo-link, .dentist-name{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size:15px;
+}
+.nav-tabs a{
+   text-decoration: none;
+   color:black;
+ font-family:'Source Sans Pro', sans-serif;
+ font-size:15px; 
+}
+}
+
     
 
 /* video responsitivity */
@@ -172,6 +213,12 @@
         
     }
 
+
+     .video-container{
+        height:1050px;
+     }   
+
+
     #main-video{
         width:100%;
     }
@@ -180,11 +227,129 @@
 
 .main-text{
     position:relative;
-    
     text-align: left;
     padding-left: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: red;
+}
+
+#maintext-left{
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+#maintext-second{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+
+.schedule{
+    padding-top: 35px;
+    padding-left:70px;
+}
+#schedule{
+    text-transform: uppercase;
+    font-size:20px;
+    background-color:gold;
+    color:rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+#book-online{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+}
+@media(max-width:1440px){
+    .container-main{
+        height:850px;
+        overflow: hidden;
+        
+    }
+
+
+     .video-container{
+        height:850px;
+     }   
+
+
+    #main-video{
+        width:100%;
+    }
+}
+
+
+.main-text{
+    position:relative;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#maintext-left{
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+#maintext-second{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+
+.schedule{
+    padding-top: 35px;
+    padding-left:70px;
+}
+#schedule{
+    text-transform: uppercase;
+    font-size:20px;
+    background-color:gold;
+    color:rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+#book-online{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+}
+@media(max-width:1024px){
+    .container-main{
+        height:600px;
+        overflow: hidden;
+        
+    }
+
+
+     .video-container{
+        height:600px;
+     }   
+
+
+    #main-video{
+        width:100%;
+    }
+}
+
+
+.main-text{
+    position:relative;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #maintext-left{
@@ -227,7 +392,7 @@
 @media(max-width: 2560px){
     .main-text{
         position:relative;
-        bottom:50%;
+        bottom:70%;
         text-align: left;
         padding-left: 10px;
         font-family: 'Raleway', sans-serif;
@@ -244,6 +409,52 @@
     padding-top:20px;
     text-transform: uppercase;
     font-size:60px;
+    color:rgba(0,0,0,.7)
+}
+}
+@media(max-width: 1440px){
+    .main-text{
+        position:relative;
+        bottom:70%;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+      
+    }
+
+
+#maintext-left{
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+#maintext-second{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:40px;
+    color:rgba(0,0,0,.7)
+}
+}
+@media(max-width: 1024px){
+    .main-text{
+        position:relative;
+        bottom:75%;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+      
+    }
+
+
+#maintext-left{
+    text-transform: uppercase;
+    font-size:30px;
+    color:rgba(0,0,0,.7)
+}
+#maintext-second{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:30px;
     color:rgba(0,0,0,.7)
 }
 }
@@ -304,6 +515,7 @@ color:grey;
     margin: 0;
 } 
 
+/* container-two responsitivity */
 @media (max-width: 2560px){
   
     .container-two{
@@ -315,15 +527,138 @@ color:grey;
         padding-bottom: 100px;
     }
   
+    .dentist-image{
+        height: 650px;
+    }
 
+    .maskimage-text{
+        padding-top:155px;
+        text-align: center;
+        
+    }
+
+    .fa-head-side-mask{
+        font-size:65px;
+    }
+
+    #mask-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 25px;
+
+    }
 }
+@media (max-width: 1440px){
+  
+    .container-two{
+        height:1350px;
+        overflow:hidden;
+     /* background: #2980B9;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-bottom: 100px;
+    }
+  
+    .dentist-image{
+        height: 450px;
+    }
+
+    .maskimage-text{
+        padding-top:135px;
+        text-align: center;
+        
+    }
+
+    .fa-head-side-mask{
+        font-size:55px;
+    }
+
+    #mask-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 20px;
+
+    }
 
 
+    .techimage{
+        padding-top: 300px;
+        height:650px;
+     }
+     
+     
+     .techlogo-text{
+         padding-top:350px;
+         text-align: center;
+     }
+     
+     .fa-atom{
+         font-size:50px;
+         color:grey;
+     }
+     
+     
+      #tech-text{
+        font-family:'Raleway', sans-serif;   
+         font-size: 20px;
+         padding-top:40px;
+         margin: 0;
+     } 
+}
+@media (max-width: 1024px){
+  
+    .container-two{
+        height:1050px;
+        overflow:hidden;
+     /* background: #2980B9;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-bottom: 100px;
+    }
+  
+    .dentist-image{
+        height: 335px;
+    }
+
+    .maskimage-text{
+        padding-top:95px;
+        text-align: center;
+        
+    }
+
+    .fa-head-side-mask{
+        font-size:45px;
+    }
+
+    #mask-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 17px;
+
+    }
 
 
-
-
-
+    .techimage{
+        padding-top: 285px;
+        height:570px;
+     }
+     
+     
+     .techlogo-text{
+         padding-top:320px;
+         text-align: center;
+     }
+     
+     .fa-atom{
+         font-size:45px;
+         color:grey;
+     }
+     
+     
+      #tech-text{
+        font-family:'Raleway', sans-serif;   
+         font-size: 17px;
+         padding-top:30px;
+         margin: 0;
+     } 
+}
 
  .container-three{
     height:450px;
@@ -426,6 +761,300 @@ text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* Container-three responsitivity */
+
+@media(max-width:2560px){
+    .container-three{
+        height:750px;
+    }
+
+    #dentalprocedure-image{
+        height:650px;
+        position:relative;
+        bottom: 110px;
+        }
+
+    .procedures{
+        position:relative;
+        right:300px;
+        top:20px;
+    }
+
+    .procedure-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 40px; 
+        text-align: center;
+        padding-right: 100px;
+    }
+
+    #procedure-list{
+        list-style-type: none;
+    }
+
+    #list-dentalbonding{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:95px;
+        
+    }
+    #list-veneers{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:190px;
+    }
+    #list-crowns{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:198px;
+    }
+    #list-contouring{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+
+    }
+    #list-braces{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:205px;
+    }
+    #list-composite{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:55px;
+    }
+    #list-implants{
+        font-family:'Raleway', sans-serif;  
+        font-size:30px; 
+        text-align: center;
+        padding-right:183px;
+    }
+
+
+.learn-button{
+    padding-right:100px;
+    padding-top:40px;
+}
+
+.learn-more{
+    text-transform: uppercase;
+    font-size:20px;
+    background-color:gold;
+    color:rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}    
+#learn-more{
+    font-size:30px;
+}
+
+}
+@media(max-width:1440px){
+    .container-three{
+        height:500px;
+    }
+
+    #dentalprocedure-image{
+        height:350px;
+        position:relative;
+        bottom: 110px;
+        }
+
+    .procedures{
+        position:relative;
+        right:80px;
+        
+    }
+
+    .procedure-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 30px; 
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    #procedure-list{
+        list-style-type: none;
+    }
+
+    #list-dentalbonding{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:65px;
+        
+    }
+    #list-veneers{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:130px;
+    }
+    #list-crowns{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:135px;
+    }
+    #list-contouring{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right: 5px;
+
+    }
+    #list-braces{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:140px;
+    }
+    #list-composite{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:43px;
+    }
+    #list-implants{
+        font-family:'Raleway', sans-serif;  
+        font-size:20px; 
+        text-align: center;
+        padding-right:127px;
+    }
+
+
+.learn-button{
+    padding-right:80px;
+    padding-top:20px;
+}
+
+.learn-more{
+    text-transform: uppercase;
+    font-size:20px;
+    background-color:gold;
+    color:rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}    
+#learn-more{
+    font-size:20px;
+}
+
+}
+@media(max-width:1024px){
+    .container-three{
+        height:400px;
+    }
+
+    #dentalprocedure-image{
+        height:295px;
+        position:relative;
+        bottom: 10px;
+        }
+
+    .procedures{
+        position:relative;
+        right:80px;
+       
+        
+    }
+
+    .procedure-text{
+        font-family:'Raleway', sans-serif;   
+        font-size: 20px; 
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    #procedure-list{
+        list-style-type: none;
+    }
+
+    #list-dentalbonding{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:55px;
+        
+    }
+    #list-veneers{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:103px;
+    }
+    #list-crowns{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:105px;
+    }
+    #list-contouring{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        
+
+    }
+    #list-braces{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:105px;
+    }
+    #list-composite{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:35px;
+    }
+    #list-implants{
+        font-family:'Raleway', sans-serif;  
+        font-size:15px; 
+        text-align: center;
+        padding-right:100px;
+    }
+
+
+.learn-button{
+    padding-right:60px;
+    padding-top:20px;
+}
+
+.learn-more{
+    text-transform: uppercase;
+    font-size:20px;
+    background-color:gold;
+    color:rgba(0,0,0,.7);
+    border-radius: 20px;
+    border:gold;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}    
+#learn-more{
+    font-size:15px;
+}
+
+}
+
+
+
 .container-four{
     padding-top: 32px;
     height:875px;
@@ -444,12 +1073,11 @@ text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
-.insurance-logo{
-    text-align: center;
-    padding-top:30px;
-    padding-left:175px;
-    font-size: 10px;
-} 
+#insurance-table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
 
 
  #cigna-image{
@@ -477,12 +1105,176 @@ text-align: left;
 #aetna-image{
     width:200px;
 }
+#blue-shield-image{
+    width:200px;
+}
+#blue-cross-image{
+    width:200px;
+}
 #geha-image{
     width:200px;
 }
 #lincoln-national-image{
     width:250px;
 }
+#premier-dental-image{
+    width:250px;
+}
+#united-concordia-image{
+    width:250px;
+}
+
+
+
+/*insurance container responsitivity */
+@media(max-width:2560px){
+    .container-four{
+        height:1150px;
+    }
+
+    #insurance-header{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size: 50px;
+    }
+
+    #insurance-text{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size:35px;
+    }
+.insurance-logo{
+    padding-top:20px;
+}
+ #insurance-table{
+        margin-left:auto;
+        margin-right:auto;
+    } 
+
+    
+
+    #unitedinsurance-image{
+        width: 450px;
+    } 
+    #cigna-image{
+        width: 450px;
+    } 
+     #metlife-image{
+        width: 450px;
+    } 
+     #humana-image{
+        width: 450px;
+    } 
+     #guardian-image{
+        width: 300px;
+    } 
+     #delta-dental-image{
+        width: 300px;
+    } 
+    
+    #careington-image{
+        width:350px;
+    }
+    #ameritas-image{
+        width:350px;
+    }
+    #aetna-image{
+        width:300px;
+    }
+    #blue-shield-image{
+        width:300px;
+    }
+    #blue-cross-image{
+        width:300px;
+    }
+    #geha-image{
+        width:300px;
+    }
+    #lincoln-national-image{
+        width:350px;
+    }
+    #premier-dental-image{
+        width:300px;
+    }
+    #united-concordia-image{
+        width:350px;
+    }
+
+}
+@media(max-width:1440px){
+    .container-four{
+        height:840px;
+    }
+
+    #insurance-header{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size: 33px;
+    }
+
+    #insurance-text{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size:23px;
+    }
+    .insurance-logo{
+        padding-top:20px;
+    }
+ #insurance-table{
+        margin-left:auto;
+        margin-right:auto;
+    } 
+
+    
+    #unitedinsurance-image{
+        width: 250px;
+    } 
+    #cigna-image{
+        width: 150px;
+    } 
+     #metlife-image{
+        width: 250px;
+    } 
+     #humana-image{
+        width: 250px;
+    } 
+     #guardian-image{
+        width: 200px;
+    } 
+     #delta-dental-image{
+        width: 200px;
+    } 
+    
+    #careington-image{
+        width:250px;
+    }
+    #ameritas-image{
+        width:250px;
+    }
+    #aetna-image{
+        width:200px;
+    }
+    #blue-shield-image{
+        width:200px;
+    }
+    #blue-cross-image{
+        width:200px;
+    }
+    #geha-image{
+        width:200px;
+    }
+    #lincoln-national-image{
+        width:250px;
+    }
+    #premier-dental-image{
+        width:185px;
+    }
+    #united-concordia-image{
+        width:250px;
+    }
+
+}
+
 
 .container-five{
     height:200px;
@@ -490,13 +1282,7 @@ text-align: left;
     
 }
 
-.patient-row .column{
-    padding-top:55px;
-    float:left;
-    width:50%;
-    text-align: right;
 
-}
 /* .new-patients{
     text-align: center;
     overflow: hidden;
@@ -508,10 +1294,135 @@ text-align: left;
 #newpatient-header{
     font-family: 'Open Sans', sans-serif;
    font-size:30px;
+   text-align: center;
 }
 
 #newpatient-text{
+text-align: center;
+   font-size:20px;
+}
 
+.patient-button{
+padding-top: 20px;
+text-align: center;
+}
+
+
+#newpatient-appointment{
+    background-color: gold;
+    border-radius: 20px;
+   border:gold;
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:5px;
+   padding-bottom: 5px;
+}
+
+#newpatient-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+@media(max-width:1024px){
+    .container-four{
+        height:750px;
+    }
+
+    #insurance-header{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size: 30px;
+    }
+
+    #insurance-text{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size:20px;
+    }
+    .insurance-logo{
+        padding-top:25px;
+    }
+ #insurance-table{
+        margin-left:auto;
+        margin-right:auto;
+    } 
+
+    
+    #unitedinsurance-image{
+        width: 245px;
+    } 
+    #cigna-image{
+        width: 145px;
+    } 
+     #metlife-image{
+        width: 245px;
+    } 
+     #humana-image{
+        width: 245px;
+    } 
+     #guardian-image{
+        width: 195px;
+    } 
+     #delta-dental-image{
+        width: 195px;
+    } 
+    
+    #careington-image{
+        width:245x;
+    }
+    #ameritas-image{
+        width:245px;
+    }
+    #aetna-image{
+        width:195px;
+    }
+    #blue-shield-image{
+        width:195px;
+    }
+    #blue-cross-image{
+        width:195px;
+    }
+    #geha-image{
+        width:195px;
+    }
+    #lincoln-national-image{
+        width:245px;
+    }
+    #premier-dental-image{
+        width:180px;
+    }
+    #united-concordia-image{
+        width:245px;
+    }
+
+}
+
+
+.container-five{
+    height:200px;
+    background-color: white;
+    
+}
+
+
+/* .new-patients{
+    text-align: center;
+    overflow: hidden;
+    padding-top:40px;
+} */
+
+
+
+#newpatient-header{
+    font-family: 'Open Sans', sans-serif;
+   font-size:30px;
+   text-align: center;
+}
+
+#newpatient-text{
+text-align: center;
    font-size:20px;
 }
 
@@ -539,6 +1450,134 @@ text-align: center;
     font-size: 15px;
 }
 
+
+/*container-five responsitivity*/
+@media(max-width:2560px){
+    .container-five{
+        height:300px;
+    }
+    #newpatient-header{
+        font-family: 'Raleway', sans-serif;
+       font-size:45px;
+       text-align: center;
+    }
+    
+    #newpatient-text{
+        font-family: 'Raleway', sans-serif;
+    text-align: center;
+       font-size:30px;
+       padding-top:20px;
+    }
+    
+    .patient-button{
+    padding-top: 30px;
+    text-align: center;
+    }
+    
+    
+    #newpatient-appointment{
+        background-color: gold;
+        border-radius: 20px;
+       border:gold;
+       padding-left:10px;
+       padding-right:10px;
+       padding-top:5px;
+       padding-bottom: 5px;
+    }
+ 
+    #newpatient-link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+}
+@media(max-width:1440px){
+    .container-five{
+        height:250px;
+    }
+    #newpatient-header{
+        font-family: 'Raleway', sans-serif;
+       font-size:35px;
+       text-align: center;
+    }
+    
+    #newpatient-text{
+        font-family: 'Raleway', sans-serif;
+    text-align: center;
+       font-size:20px;
+       padding-top:15px;
+    }
+    
+    .patient-button{
+    padding-top: 20px;
+    text-align: center;
+    }
+    
+    
+    #newpatient-appointment{
+        background-color: gold;
+        border-radius: 20px;
+       border:gold;
+       padding-left:10px;
+       padding-right:10px;
+       padding-top:5px;
+       padding-bottom: 5px;
+    }
+ 
+    #newpatient-link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+}
+@media(max-width:1024px){
+    .container-five{
+        height:235px;
+    }
+    #newpatient-header{
+        font-family: 'Raleway', sans-serif;
+       font-size:30px;
+       text-align: center;
+    }
+    
+    #newpatient-text{
+        font-family: 'Raleway', sans-serif;
+    text-align: center;
+       font-size:15px;
+       padding-top:15px;
+    }
+    
+    .patient-button{
+    padding-top: 20px;
+    text-align: center;
+    }
+    
+    
+    #newpatient-appointment{
+        background-color: gold;
+        border-radius: 20px;
+       border:gold;
+       padding-left:10px;
+       padding-right:10px;
+       padding-top:5px;
+       padding-bottom: 5px;
+    }
+ 
+    #newpatient-link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+}
+
+
+
 .container-six{
     padding-top:30px;
     height: 630px;
@@ -564,6 +1603,20 @@ padding-top:15px;
     overflow: hidden;
     
 }
+/*container-six respositivity*/
+@media(max-width:1024px){
+    .container-six{
+        height:630px;
+    }
+    .fa-map-marker{
+        font-size: 30px;
+    }
+    #header{
+        padding-top:15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        }
+}
 
 .container-seven{
     height:375px;
@@ -573,6 +1626,8 @@ padding-top:15px;
     padding-top:60px;
     text-align: center;
 }
+
+
 
 .container-seven .column{
     float:left;
@@ -664,6 +1719,56 @@ padding-top:15px;
 
 }*/
 
+@media(max-width:1024px){
+    .container-seven{
+        height:350px;
+    }
+
+    #footer-info{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+    
+    
+    #footer-services{
+        font-family: 'Raleway', sans-serif;
+        font-size:25px;
+    }
+    #footerservices-list{
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        list-style-type: none;
+        font-size: 15px;
+    }
+    
+    #footer-social{
+        font-family: 'Raleway', sans-serif;
+        font-size:25px;
+    }
+
+    .fa-facebook{
+        font-size: 20px;
+        color:blue;
+    }
+    .fa-twitter{
+        font-size: 20px;
+        padding-top:20px;
+        color:rgb(29,161,242);
+    }
+    .fa-instagram{
+        font-size: 20px;
+        padding-top:20px;
+        color:rgb(131,58,180);
+    }
+
+    #address{
+        padding-top:20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+
+}
 
 /* About page */
 #first-about{

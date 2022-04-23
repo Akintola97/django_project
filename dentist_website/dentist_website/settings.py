@@ -12,9 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 
 from pathlib import Path
-import django_on_heroku
-import dj_database_url
-from decouple import config
+
 
 
 
@@ -149,7 +147,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #EMAIL_HOST_PASSWORD = '' #this is perhaps your actual password
 
 
-django_on_heroku.settings(locals())
+
 
 
 

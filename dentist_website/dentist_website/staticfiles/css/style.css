@@ -1447,29 +1447,29 @@ color:grey;
     }
   
     .dentist-image{
-        height: 450px;
+        height: 375px;
     }
 
     .maskimage-text{
-        padding-top:135px;
+        padding-top:115px;
         text-align: center;
         
     }
 
     .fa-head-side-mask{
-        font-size:55px;
+        font-size:40px;
     }
 
     #mask-text{
         font-family:'Raleway', sans-serif;   
-        font-size: 20px;
+        font-size: 18px;
 
     }
 
 
     .techimage{
         padding-top: 300px;
-        height:650px;
+        height:620px;
      }
      
      
@@ -1479,14 +1479,14 @@ color:grey;
      }
      
      .fa-atom{
-         font-size:50px;
+         font-size:30px;
          color:grey;
      }
      
      
       #tech-text{
         font-family:'Raleway', sans-serif;   
-         font-size: 20px;
+         font-size: 18px;
          padding-top:40px;
          margin: 0;
      } 
@@ -2146,20 +2146,20 @@ text-align: left;
     }
 
     #dentalprocedure-image{
-        height:350px;
+        height:500px;
         position:relative;
         bottom: 110px;
         }
 
     .procedures{
         position:relative;
-        right:80px;
+        right:50px;
         
     }
 
     .procedure-text{
         font-family:'Raleway', sans-serif;   
-        font-size: 30px; 
+        font-size: 25px; 
         text-align: center;
         padding-right: 50px;
     }
@@ -4534,6 +4534,59 @@ padding-top:15px;
 
 }*/
 
+@media(max-width:1440px){
+    .container-seven{
+        height:250px;
+    }
+
+    #footer-info{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+    
+    #footer-services{
+        font-family: 'Raleway', sans-serif;
+        font-size:20px;
+    }
+    #footerservices-list{
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        list-style-type: none;
+        font-size: 13px;
+    }
+    
+    #footer-social{
+        font-family: 'Raleway', sans-serif;
+        font-size:20px;
+    }
+
+    .fa-facebook{
+        font-size: 13px;
+        color:blue;
+    }
+    .fa-twitter{
+        font-size: 13px;
+        padding-top:20px;
+        color:rgb(29,161,242);
+    }
+    .fa-instagram{
+        font-size: 13px;
+        padding-top:20px;
+        color:rgb(131,58,180);
+    }
+
+    #address{
+        padding-top:20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+    }
+    .navigation #navigation-link{
+        font-size:13px;
+    }
+
+}
 @media(max-width:1024px){
     .container-seven{
         height:310px;
@@ -4640,7 +4693,7 @@ padding-top:15px;
 }
 @media(max-width:768px){
     .container-seven{
-        height:320px;
+        height:270px;
     }
 
     #footer-info{
@@ -4740,7 +4793,7 @@ padding-top:15px;
 }
 @media(max-width:425px){
     .container-seven{
-        height:275px;
+        height:240px;
     }
 
     #footer-info{
@@ -4790,7 +4843,7 @@ padding-top:15px;
 }
 @media(max-width:414px){
     .container-seven{
-        height:255px;
+        height:225px;
     }
 
     #footer-info{
@@ -4844,7 +4897,7 @@ padding-top:15px;
 }
 @media(max-width:375px){
     .container-seven{
-        height:220px;
+        height:200px;
     }
 
     #footer-info{
@@ -4891,14 +4944,18 @@ padding-top:15px;
         font-size: 8px;
     }
 
+
+    #navigation-button{
+        font-size: 8px;
+    }
     .navigation #navigation-link{
-        font-size:8px;
+        font-size:8px;   
     }
 
 }
 @media(max-width:280px){
     .container-seven{
-        height:215px;
+        height:210px;
     }
 
     #footer-info{

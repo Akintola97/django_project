@@ -2533,14 +2533,14 @@ text-align: left;
     }
 
     #dentalprocedure-image{
-        height:185px;
+        height:175px;
         position:relative;
         top: 10px;
         }
 
     .procedures{
         position:relative;
-        left:35px;
+        left:8px;
        
         
     }
@@ -4536,7 +4536,7 @@ padding-top:15px;
 
 @media(max-width:1024px){
     .container-seven{
-        height:350px;
+        height:310px;
     }
 
     #footer-info{

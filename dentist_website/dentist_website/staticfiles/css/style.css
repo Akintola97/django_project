@@ -3694,6 +3694,82 @@ text-align: left;
     }
 
 }
+@media(max-width:375px){
+    .container-four{
+        height:400px;
+    }
+
+    #insurance-header{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size: 13px;
+    }
+
+    #insurance-text{
+        text-align: center;
+        font-family:'Raleway', sans-serif;  
+        font-size:9px;
+        position:relative;
+        bottom:10px;
+       
+    }
+    .insurance-logo{
+        padding-top:10px;
+    }
+ #insurance-table{
+        margin-left:auto;
+        margin-right:auto;
+    } 
+
+    
+    #unitedinsurance-image{
+        width: 80px;
+    } 
+    #cigna-image{
+        width: 75px;
+    } 
+     #metlife-image{
+        width: 65px;
+    } 
+     #humana-image{
+        width: 85px;
+    } 
+     #guardian-image{
+        width: 75px;
+    } 
+     #delta-dental-image{
+        width: 65px;
+    } 
+    
+    #careington-image{
+        width:85px;
+    }
+    #ameritas-image{
+        width:85px;
+    }
+    #aetna-image{
+        width:85px;
+    }
+    #blue-shield-image{
+        width:85px;
+    }
+    #blue-cross-image{
+        width:85px;
+    }
+    #geha-image{
+        width:85px;
+    }
+    #lincoln-national-image{
+        width:85px;
+    }
+    #premier-dental-image{
+        width:60px;
+    }
+    #united-concordia-image{
+        width:75px;
+    }
+
+}
 @media(max-width:280px){
     .container-four{
         height:350px;
@@ -4150,6 +4226,48 @@ text-align: center;
         color:black;
         font-family: 'Raleway', sans-serif;
         font-size: 7.5px;
+    }
+}
+@media(max-width:375px){
+    .container-five{
+        height:140px;
+    }
+    #newpatient-header{
+        font-family: 'Raleway', sans-serif;
+       font-size:15px;
+       text-align: center;
+    }
+    
+    #newpatient-text{
+        font-family: 'Raleway', sans-serif;
+    text-align: center;
+       font-size:8px;
+       padding-top:12px;
+    }
+    
+    .patient-button{
+    padding-top: 8px;
+    text-align: center;
+    }
+    
+    
+    #newpatient-appointment{
+        background-color: gold;
+        border-radius: 20px;
+       border:gold;
+       padding-left:10px;
+       padding-right:10px;
+       padding-top:5px;
+       padding-bottom: 5px;
+       font-size: 8px;
+    }
+ 
+    #newpatient-link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
     }
 }
 @media(max-width:280px){

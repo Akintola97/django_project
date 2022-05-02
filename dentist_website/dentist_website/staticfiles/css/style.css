@@ -6200,7 +6200,44 @@ padding-top:15px;
 }
 
 /* First about container responsiveness */
+@media(max-width:2560px){
+    #first-about{
+        height:875px;
+        overflow: none;
+    }
 
+    .physician-patient{
+        width:100%;
+        height:875px;
+    }
+
+    .about-text{
+        position:relative;
+        bottom:75%;
+    }
+
+    #abouttext-left{
+        text-transform: uppercase;
+        font-size:40px;
+        color:white;
+        padding-left:10px;
+    
+    }
+    #abouttext-long{
+        text-transform: uppercase;
+        font-size:40px;
+        color:white;
+        padding-left:10px;
+        padding-top:40px;
+    
+    }
+    
+    .schedule-about{
+        padding-top: 35px;
+        padding-left:70px;
+        text-align: left;
+    }    
+}
 
 
 
@@ -6335,6 +6372,114 @@ padding-top:15px;
     font-family: 'Raleway', sans-serif;
 }
 
+/*Second About container responsivness*/
+@media(max-width:2560px){
+    #second-about{
+        height:855px;
+       
+    }
+    
+    #second-about .column{
+        
+        padding-top: 90px;
+        float:left;
+        width:50%;
+    }
+    .about-header{
+        padding-top:20px;
+    }
+    
+    #about-characteristics{
+        font-size:40px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    #about-introduction{
+        padding-top:20px;
+        font-family: 'Raleway', sans-serif;
+        font-size:40px;
+     
+    }
+    #comment-section .column{
+        
+        padding:20px;
+        float:left;
+        width:33.3%;
+        text-align: center;
+    }
+    
+    #visit-comment{
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        padding-top: 125px;
+    }
+
+    #goals{
+        height:1000px;
+    }
+
+    .convenience{
+        padding-left:10px;
+    }
+    
+    #convenience-header{
+        font-size:50px;
+        text-align: center;
+    }
+    
+    #goals .column{
+        float:left;
+        width:20%;
+    }
+
+    .convenience-goals{
+        padding-top:100px;  
+    }
+    
+    #icon-img{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    #relationships{
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+    }
+    #trust{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+    }
+    
+#culture{
+    padding-top:10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+#confidence{
+    padding-top:10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+#connection{
+    padding-top:10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+#loyalty{
+    padding-top:10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+}
+
+
+
+
 #third-about{
     height:1300px;
 
@@ -6399,6 +6544,74 @@ padding-top:15px;
   font-family: 'Raleway', sans-serif;
 
 }
+
+/*Third about responsiveness */
+@media(max-width:2560px){
+    #third-about{
+        height:2700px;   
+    }
+
+ 
+    .member-header{
+        font-size:50px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+#third-about .meet-office .column{
+    padding-top:100px;
+    text-align: center;
+    float:left;
+    width:33.3%;
+    transition: transform .2s 
+}
+#third-about .meet-office .column:hover{
+    transform: scale(1.3);
+    opacity: 1;
+ }
+
+ .card{
+     width:52rem;
+     height:42rem;
+     
+ }
+ #third-about .column .card{
+    /* border: 1px solid grey; */
+    border-radius: 50%;
+
+    
+ } 
+ .overlay{
+    position:absolute;
+    top: 70px;
+    bottom:0;
+    left:70px;
+    right:0;
+    height:22vw;
+    width:18rem;
+    opacity:0;
+    background-color:none;
+}
+#third-about .meet-office .column:hover .overlay{ 
+    opacity: 1;
+   /*  border: 1px solid grey; */
+  }
+ 
+ .card-text{
+     color:black;
+   font-size: 35px;
+   position: absolute;
+   top: 80%;
+   left: 45%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+ 
+ }
+}
+
 
 
 #forth-about{

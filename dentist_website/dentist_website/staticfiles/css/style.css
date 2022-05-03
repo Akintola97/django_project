@@ -6202,7 +6202,7 @@ padding-top:15px;
 /* First about container responsiveness */
 @media(max-width:2560px){
     #first-about{
-        height:875px;
+        height:1005px;
         overflow: none;
     }
 
@@ -6375,7 +6375,7 @@ padding-top:15px;
 /*Second About container responsivness*/
 @media(max-width:2560px){
     #second-about{
-        height:855px;
+        height:975px;
        
     }
     
@@ -6548,7 +6548,7 @@ padding-top:15px;
 /*Third about responsiveness */
 @media(max-width:2560px){
     #third-about{
-        height:2700px;   
+        height:2800px;   
     }
 
  
@@ -6618,7 +6618,7 @@ padding-top:15px;
     height:300px;
 }
 
-.unique{
+/* .unique{
     padding-top:100px;
     text-align: center;
 }
@@ -6626,7 +6626,7 @@ padding-top:15px;
 #unique-text{
     font-family: 'Raleway', sans-serif;
     font-size:40px;
-}
+} */
 
 #forth-about{
     height:600px;
@@ -6696,6 +6696,67 @@ font-family: 'Raleway', sans-serif;
 font-size: 20px;
 }
 
+/*Forth About container responsiveness*/
+@media(max-width:2560px){
+    #forth-about{
+        height:1275px;
+    }
+
+    #dental-chair{
+        padding-top:25px;
+        padding-left:10px;
+        height:847px;
+    }
+    
+    #wellness-header{
+        padding-top:25px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    #wellness-text{
+        padding-top:20px;
+        font-family: 'Raleway', sans-serif;
+        font-size:30px;
+    }
+    .plan{
+        padding-top:40px;
+    }
+    
+    #plan-header{
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+    }
+    
+    .plan-list{
+        padding-top:40px;
+    }    
+
+    #plan-cleaning{
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+    }
+    #plan-xray{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    }
+    
+    #plan-consultation{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    }
+    #plan-discount{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    }
+
+}
+
+
 #final-about{
     height:200px;
 
@@ -6723,6 +6784,39 @@ font-size: 15px;
 text-decoration: none;
 color:black;
 }
+
+/*final about container*/
+@media(max-width:2560px){
+    #final-about{
+        height:500px;
+    
+    }
+    
+    .call{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 50px;
+    }
+
+    #call-button{
+        background-color:gold;
+        border-radius: 20px;
+        border:gold;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+    }
+
+    #call-characters{
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        text-decoration: none;
+        color:black;
+        }
+}
+
+
 
 
 /* Services-page */

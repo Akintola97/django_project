@@ -6322,6 +6322,48 @@ padding-top:15px;
         font-size:12px;
 }
 }
+@media(max-width:425px){
+    #first-about{
+        height:400px;
+        overflow: none;
+    }
+
+    .physician-patient{
+        width:100%;
+        height:400px;
+    }
+
+    .about-text{
+        position:relative;
+        bottom:80%;
+    }
+
+    #abouttext-left{
+        text-transform: uppercase;
+        font-size:15px;
+        color:white;
+        padding-left:2px;
+    
+    }
+    #abouttext-long{
+        text-transform: uppercase;
+        font-size:15px;
+        color:white;
+        padding-left:2px;
+        padding-top:40px;
+    
+    }
+    
+    .schedule-about{
+        padding-top: 20px;
+        padding-left:10px;
+        text-align: left;
+    }    
+
+    #schedule{
+        font-size:8px;
+}
+}
 
 
 
@@ -6768,6 +6810,109 @@ padding-top:15px;
 }
 
 }
+@media(max-width:425px){
+    #second-about{
+        height:605px;
+       
+    }
+    
+    #second-about .column{
+        
+        padding-top: 90px;
+        float:left;
+        width:50%;
+    }
+    .about-header{
+        padding-top:10px;
+    }
+    
+    #about-characteristics{
+        font-size:11px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    #about-introduction{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:11px;
+     
+    }
+    #comment-section .column{
+        
+        padding:20px;
+        float:left;
+        width:33.3%;
+        text-align: center;
+    }
+    
+    #visit-comment{
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        padding-top: 125px;
+    }
+
+    #goals{
+        height:405px;
+    }
+
+    .convenience{
+        padding-left:10px;
+    }
+    
+    #convenience-header{
+        font-size:12px;
+        text-align: center;
+    }
+    
+    #goals .column{
+        float:left;
+        width:20%;
+    }
+
+    .convenience-goals{
+        padding-top:50px;  
+    }
+    
+    #icon-img{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    #relationships{
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+    }
+    #trust{
+        padding-top:5px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+    }
+    
+#culture{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+#confidence{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+#connection{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+#loyalty{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+}
 
 
 
@@ -7010,7 +7155,7 @@ padding-top:15px;
     left:70px;
     right:0;
     height:22vw;
-    width:15rem;
+    width:12rem;
     opacity:0;
     background-color:none;
 }
@@ -7033,6 +7178,7 @@ padding-top:15px;
  
  }
 }
+
 
 
 

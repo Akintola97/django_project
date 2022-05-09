@@ -59,7 +59,12 @@
 .nav-tabs a{
    text-decoration: none;
    color:black;
- font-family:'Source Sans Pro', sans-serif; 
+   font-family:'Source Sans Pro', sans-serif; 
+}
+.nav-tabs a:hover{
+   box-shadow: 0 0 3px gold, 0 0 7px gold, 0 0 20px gold;
+   color:skyblue;
+   background-color: rgba(0,0,0,0.75);
 }
 
 .bars{

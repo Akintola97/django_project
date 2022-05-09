@@ -6364,6 +6364,48 @@ padding-top:15px;
         font-size:8px;
 }
 }
+@media(max-width:375px){
+    #first-about{
+        height:350px;
+        overflow: none;
+    }
+
+    .physician-patient{
+        width:100%;
+        height:350px;
+    }
+
+    .about-text{
+        position:relative;
+        bottom:80%;
+    }
+
+    #abouttext-left{
+        text-transform: uppercase;
+        font-size:13px;
+        color:white;
+        padding-left:1px;
+    
+    }
+    #abouttext-long{
+        text-transform: uppercase;
+        font-size:13px;
+        color:white;
+        padding-left:1px;
+        padding-top:40px;
+    
+    }
+    
+    .schedule-about{
+        padding-top: 20px;
+        padding-left:10px;
+        text-align: left;
+    }    
+
+    #schedule{
+        font-size:8px;
+}
+}
 
 
 
@@ -6913,6 +6955,110 @@ padding-top:15px;
 }
 
 }
+@media(max-width:375px){
+    #second-about{
+        height:550px;
+       
+    }
+    
+    #second-about .column{
+        
+        padding-top: 50px;
+        float:left;
+        width:50%;
+    }
+    .about-header{
+        padding-top:10px;
+    }
+    
+    #about-characteristics{
+        font-size:11px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    #about-introduction{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:11px;
+     
+    }
+    #comment-section .column{
+        position:relative;
+        bottom:60px;
+        padding:20px;
+        float:left;
+        width:33.3%;
+        text-align: center;
+    }
+    
+    #visit-comment{
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        padding-top: 125px;
+    }
+
+    #goals{
+        height:455px;
+    }
+
+    .convenience{
+        padding-left:10px;
+    }
+    
+    #convenience-header{
+        font-size:12px;
+        text-align: center;
+    }
+    
+    #goals .column{
+        float:left;
+        width:20%;
+    }
+
+    .convenience-goals{
+        padding-top:50px;  
+    }
+    
+    #icon-img{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    #relationships{
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+    }
+    #trust{
+        padding-top:5px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+    }
+    
+#culture{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+#confidence{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+#connection{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+#loyalty{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+}
 
 
 
@@ -7235,6 +7381,71 @@ padding-top:15px;
    position: absolute;
    top: 120%;
    left: 20%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+ 
+ }
+}
+@media(max-width:375px){
+    #third-about{
+        height:625px;   
+    }
+
+ 
+    .member-header{
+        font-size:15px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+#third-about .meet-office .column{
+    padding-top:30px;
+    text-align: center;
+    float:left;
+    width:33.3%;
+    transition: transform .2s 
+}
+#third-about .meet-office .column:hover{
+    transform: scale(1.3);
+    opacity: 1;
+ }
+
+ .card{
+     width:7rem;
+     height:7rem;
+     
+ }
+ #third-about .column .card{
+    /* border: 1px solid grey; */
+    border-radius: 50%;
+
+    
+ } 
+ .overlay{
+    position:absolute;
+    top: 70px;
+    bottom:0;
+    left:70px;
+    right:0;
+    height:10vw;
+    width:1rem;
+    opacity:0;
+    background-color:none;
+}
+#third-about .meet-office .column:hover .overlay{ 
+    opacity: 1;
+   /*  border: 1px solid grey; */
+  }
+ 
+ .card-text{
+     color:black;
+   font-size: 12px;
+   position: absolute;
+   top: 80%;
+   left: 8%;
    -webkit-transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
@@ -7623,6 +7834,65 @@ font-size: 20px;
     }
 
 }
+@media(max-width:375px){
+    #forth-about{
+        height:325px;
+    }
+
+    #dental-chair{
+        padding-top:25px;
+        padding-left:3px;
+        height:152px;
+    }
+    
+    #wellness-header{
+        padding-top:25px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #wellness-text{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:10px;
+        display:none;
+    }
+    .plan{
+        padding-top:5px;
+    }
+    
+    #plan-header{
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px;
+    }
+    
+    .plan-list{
+        padding-top:8px;
+    }    
+
+    #plan-cleaning{
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
+    }
+    #plan-xray{
+    padding-top:15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+    
+    #plan-consultation{
+    padding-top:15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+    #plan-discount{
+    padding-top:15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+
+}
 
 
 #final-about{
@@ -7768,6 +8038,38 @@ color:black;
         font-size: 10px;
         text-decoration: none;
         color:black;
+        }
+}
+@media(max-width:375px){
+    #final-about{
+        height:220px;
+    
+    }
+    
+    .call{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+
+    #call-button{
+        background-color:gold;
+        border-radius: 20px;
+        border:gold;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        position: relative;
+        top:10px;
+    }
+
+    #call-characters{
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        text-decoration: none;
+        color:black;
+       
         }
 }
 

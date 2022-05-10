@@ -8113,6 +8113,64 @@ font-size: 20px;
     }
 
 }
+@media(max-width:820px){
+    #forth-about{
+        height:655px;
+    }
+
+    #dental-chair{
+        padding-top:25px;
+        padding-left:10px;
+        height:370px;
+    }
+    
+    #wellness-header{
+        padding-top:25px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #wellness-text{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:16px;
+    }
+    .plan{
+        padding-top:15px;
+    }
+    
+    #plan-header{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    
+    .plan-list{
+        padding-top:28px;
+    }    
+
+    #plan-cleaning{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    #plan-xray{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    }
+    
+    #plan-consultation{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    }
+    #plan-discount{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    }
+
+}
 @media(max-width:768px){
     #forth-about{
         height:500px;
@@ -8270,6 +8328,70 @@ font-size: 20px;
         padding-top:12px;
         position:relative;
         left:5px;
+    }    
+
+    #plan-cleaning{
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
+    }
+    #plan-xray{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+    
+    #plan-consultation{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+    #plan-discount{
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    }
+
+}
+@media(max-width:393px){
+    #forth-about{
+        height:315px;
+    }
+
+    #dental-chair{
+        padding-top:25px;
+        padding-left:1px;
+        height:170px;
+    }
+    
+    #wellness-header{
+        padding-top:26px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #wellness-text{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:10px;
+        display:none;
+    }
+    .plan{
+        padding-top:3px;
+    }
+    
+    #plan-header{
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px;
+        position:relative;
+        left:15px;
+        top:3px;
+    }
+    
+    .plan-list{
+        padding-top:12px;
+        position:relative;
+        left:15px;
     }    
 
     #plan-cleaning{
@@ -8661,6 +8783,38 @@ color:black;
     #call-characters{
         font-family: 'Raleway', sans-serif;
         font-size: 10px;
+        text-decoration: none;
+        color:black;
+        }
+}
+@media(max-width:393px){
+    #final-about{
+        height:180px;
+    
+    }
+    
+    .call{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+    }
+
+    #call-button{
+        background-color:gold;
+        border-radius: 20px;
+        border:gold;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        font-size:9px;
+        position:relative;
+        top:5px;
+    }
+
+    #call-characters{
+        font-family: 'Raleway', sans-serif;
+        font-size:9px;
         text-decoration: none;
         color:black;
         }

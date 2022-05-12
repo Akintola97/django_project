@@ -7923,7 +7923,7 @@ padding-top:15px;
     transition: transform .2s 
 }
 #third-about .meet-office .column:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     opacity: 1;
  }
 
@@ -7958,8 +7958,8 @@ padding-top:15px;
      color:black;
    font-size: 15px;
    position: absolute;
-   top: 65%;
-   left: 50%;
+   top: 125%;
+   left: 100%;
    -webkit-transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);

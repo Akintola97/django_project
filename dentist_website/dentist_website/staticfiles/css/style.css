@@ -6593,6 +6593,51 @@ padding-top:15px;
         font-size:8px;
 }
 }
+@media(max-width:280px){
+    #first-about{
+        height:200px;
+        overflow: none;
+    }
+
+    .physician-patient{
+        width:100%;
+        height:200px;
+    }
+
+    .about-text{
+        position:relative;
+        bottom:80%;
+    }
+
+    #abouttext-left{
+        text-transform: uppercase;
+        font-size:10px;
+        color:white;
+        padding-left:1px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    #abouttext-long{
+        text-transform: uppercase;
+        font-size:10px;
+        color:white;
+        padding-left:1px;
+        padding-top:2px;
+
+    
+    }
+    
+    .schedule-about{
+        padding-top: 2px;
+        padding-left:10px;
+        text-align: left;
+    }    
+
+    #schedule{
+        font-size:5px;
+}
+}
 
 
 
@@ -7036,6 +7081,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+    position:relative;
+    left:8px;
 }
 
 }
@@ -7141,6 +7188,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+    position:relative;
+    left:3px;
 }
 
 }
@@ -7244,6 +7293,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+    position:relative;
+    left:8px;
 }
 
 }
@@ -7347,6 +7398,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
+    position:relative;
+    left:9px;
 }
 
 }
@@ -7452,6 +7505,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 11px;
+    position:relative;
+    left:8px;
 }
 
 }
@@ -7557,6 +7612,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 11px;
+    position:relative;
+    left:8px;
 }
 
 }
@@ -7661,6 +7718,8 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 11px;
+    position:relative;
+    left:10px;
 }
 
 }
@@ -7765,6 +7824,113 @@ padding-top:15px;
     padding-top:5px;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
+    position:relative;
+    left:3px;
+}
+
+}
+@media(max-width:280px){
+    #second-about{
+        height:125px;
+       
+    }
+    
+    #second-about .column{
+        
+        padding-top: 10px;
+        float:left;
+        width:50%;
+    }
+    .about-header{
+        padding-top:10px;
+    }
+    
+    #about-characteristics{
+        font-size:8px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    #about-introduction{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:8px;
+     
+    }
+    #comment-section .column{
+       
+        padding:20px;
+        float:left;
+        width:33.3%;
+        text-align: center;
+    }
+    
+    #visit-comment{
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
+        padding-top: 85px;
+    }
+
+    #goals{
+        height:500px;
+    }
+
+    .convenience{
+        padding-left:10px;
+    }
+    
+    #convenience-header{
+        font-size:10px;
+        text-align: center;
+    }
+    
+    #goals .column{
+        float:left;
+        width:20%;
+    }
+
+    .convenience-goals{
+        padding-top:30px;  
+    }
+    
+    #icon-img{
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    #relationships{
+        padding-left: 2px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 6px;
+    }
+    #trust{
+        padding-top:5px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 6px;
+    }
+    
+#culture{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+}
+#confidence{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+}
+
+#connection{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6.5px;
+}
+
+#loyalty{
+    padding-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6.5px;
+    position:relative;
+    left:3px;
 }
 
 }
@@ -8452,6 +8618,74 @@ padding-top:15px;
  .card{
      width:5rem;
      height:5rem;
+     
+ }
+ #third-about .column .card{
+    /* border: 1px solid grey; */
+    border-radius: 50%;
+
+    
+ } 
+ .overlay{
+    position:absolute;
+    top: 70px;
+    bottom:0;
+    left:70px;
+    right:0;
+    height:1vw;
+    width:1rem;
+    opacity:0;
+    background-color:none;
+   
+}
+#third-about .meet-office .column:hover .overlay{ 
+    opacity: 1;
+   /*  border: 1px solid grey; */
+   display: none;
+  }
+ 
+ .card-text{
+     color:black;
+   font-size: 12px;
+   position: absolute;
+   top: 80%;
+   left: 8%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   display:none;
+ 
+ }
+}
+@media(max-width:280px){
+    #third-about{
+        height:390px;   
+    }
+
+ 
+    .member-header{
+        font-size:10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+#third-about .meet-office .column{
+    padding-top:30px;
+    text-align: center;
+    float:left;
+    width:33.3%;
+    transition: none;
+}
+#third-about .meet-office .column:hover{
+    transform: none;
+    opacity: 1;
+ }
+
+ .card{
+     width:3rem;
+     height:4rem;
      
  }
  #third-about .column .card{
@@ -9313,14 +9547,14 @@ font-size: 20px;
     #dental-chair{
         padding-top:25px;
         padding-left:3px;
-        height:140px;
+        height:138px;
     }
     
     #wellness-header{
         padding-top:25px;
         font-family: 'Raleway', sans-serif;
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #wellness-text{
@@ -9331,19 +9565,22 @@ font-size: 20px;
     }
     .plan{
         padding-top:5px;
+        position:relative;
+        left:5px;
     }
     
     #plan-header{
         font-family: 'Raleway', sans-serif;
-        font-size: 9px;
+        font-size: 8px;
         position:relative;
-        left:8px;
+        left:5px;
     }
     
     .plan-list{
         padding-top:8px;
         position:relative;
-        left:8px;
+        left:5px;
+
     }    
 
     #plan-cleaning{
@@ -9365,6 +9602,72 @@ font-size: 20px;
     padding-top:12px;
     font-family: 'Raleway', sans-serif;
     font-size: 8px;
+    }
+
+}
+@media(max-width:280px){
+    #forth-about{
+        height:275px;
+    }
+
+    #dental-chair{
+        padding-top:25px;
+        padding-left:1px;
+        height:128px;
+    }
+    
+    #wellness-header{
+        padding-top:25px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    #wellness-text{
+        padding-top:10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:9px;
+        display:none;
+    }
+    .plan{
+        padding-top:5px;
+        position:relative;
+        left:9px;
+    }
+    
+    #plan-header{
+        font-family: 'Raleway', sans-serif;
+        font-size: 7.5px;
+        position:relative;
+        left:9px;
+    }
+    
+    .plan-list{
+        padding-top:8px;
+        position:relative;
+        left:9px;
+
+    }    
+
+    #plan-cleaning{
+        font-family: 'Raleway', sans-serif;
+        font-size: 7.5px;
+    }
+    #plan-xray{
+    padding-top:12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7.5px;
+    }
+    
+    #plan-consultation{
+    padding-top:12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7.5px;
+    }
+    #plan-discount{
+    padding-top:12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7.5px;
     }
 
 }
@@ -9764,6 +10067,39 @@ color:black;
     #call-characters{
         font-family: 'Raleway', sans-serif;
         font-size: 9px;
+        text-decoration: none;
+        color:black;
+       
+        }
+}
+@media(max-width:280px){
+    #final-about{
+        height:130px;
+    
+    }
+    
+    .call{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 7px;
+    }
+
+    #call-button{
+        background-color:gold;
+        border-radius: 20px;
+        border:gold;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        position: relative;
+        top:10px;
+        font-size: 7px;
+    }
+
+    #call-characters{
+        font-family: 'Raleway', sans-serif;
+        font-size: 7px;
         text-decoration: none;
         color:black;
        

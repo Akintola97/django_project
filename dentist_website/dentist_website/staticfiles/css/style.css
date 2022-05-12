@@ -1619,7 +1619,7 @@ color:grey;
 @media (max-width: 1440px){
   
     .container-two{
-        height:1350px;
+        height:1115px;
         overflow:hidden;
      /* background: #2980B9;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
@@ -1629,11 +1629,15 @@ color:grey;
   
     .dentist-image{
         height: 375px;
+        position:relative;
+        bottom:80px;
     }
 
     .maskimage-text{
         padding-top:115px;
         text-align: center;
+        position:relative;
+        bottom:80px;
         
     }
 
@@ -1651,12 +1655,16 @@ color:grey;
     .techimage{
         padding-top: 300px;
         height:620px;
+        position:relative;
+        bottom:110px;
      }
      
      
      .techlogo-text{
          padding-top:350px;
          text-align: center;
+         position:relative;
+         bottom:110px;
      }
      
      .fa-atom{
@@ -1708,12 +1716,15 @@ color:grey;
     .techimage{
         padding-top: 285px;
         height:570px;
+        position:relative;
+        bottom:80px;
      }
      
      
      .techlogo-text{
          padding-top:320px;
          text-align: center;
+         
      }
      
      .fa-atom{

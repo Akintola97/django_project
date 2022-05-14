@@ -76,64 +76,27 @@
     position: fixed;
     width:100%;
     text-align: center;
-    padding:61px;
-    text-decoration: none;
+   padding:61px; 
     display: none;
+    background-color: tan;
 }
 
 .vertical-tabs{
     list-style-type: none;
-}
-#vertical-links{
-    padding: 10px;
     
 }
+#vertical-links{
+    padding: 10px; 
+}
 
-.vertical-ref-about{
+.vertical-tabs a{
     text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+
 }
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
+
+
 
 
 
@@ -439,53 +402,6 @@
 #vertical-links{
     padding: 10px;  
 }
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
-
 }
 @media(max-width:390px){
     .fa-tooth{

@@ -77,24 +77,42 @@
     width:100%;
     text-align: center;
    padding:61px; 
-    display: none;
-    background-color: tan;
+   background-color: rgba(210,180,140,0.7);
+   width:100%;
+   z-index: 9;
+   display:none;
 }
+
+
+
 
 .vertical-tabs{
     list-style-type: none;
+
+   
     
 }
 #vertical-links{
     padding: 10px; 
 }
 
+#vertical-links a:hover{
+    box-shadow: 0 0 3px gold, 0 0 7px gold, 0 0 20px gold;
+    color:skyblue;
+    background-color: rgba(0,0,0,0.75);
+ }
+
+
+
 .vertical-tabs a{
     text-decoration: none;
     color:black;
     font-family:'Source Sans Pro', sans-serif; 
-
+   
 }
+
+
+
 
 
 
@@ -120,6 +138,13 @@
  font-family:'Source Sans Pro', sans-serif;
  font-size:30px; 
 }
+
+.vertical-tabs a{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size:30px; 
+}
 }
 
 @media(max-width:1440px){
@@ -141,6 +166,13 @@
  font-family:'Source Sans Pro', sans-serif;
  font-size:20px; 
 }
+
+.vertical-tabs a{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size:20px; 
+}
 }
 @media(max-width:1024px){
     .fa-tooth{
@@ -155,12 +187,26 @@
     padding: 5px;
     font-size:15px;
 }
+
+.vertical-tabs a{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size:15px;
+}
 .nav-tabs a{
    text-decoration: none;
    color:black;
  font-family:'Source Sans Pro', sans-serif;
  font-size:15px; 
 }
+.vertical-tabs a{
+    text-decoration: none;
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size:15px; 
+}
+
 }
 @media(max-width:912px){
     .fa-tooth{
@@ -207,7 +253,7 @@
     color:black;
 } 
 
-#vertical-nav{
+/* #vertical-nav{
     position: fixed;
     width:100%;
     text-align: center;
@@ -221,56 +267,13 @@
 }
 #vertical-links{
     padding: 10px;
-    
-    
 }
-
-.vertical-ref-about{
+.vertical-tabs a{
     text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
-
+    color:black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size:15px;  
+}*/
 }
 @media(max-width:540px){
     .fa-tooth{
@@ -297,8 +300,8 @@
     color:black;
 } 
 
-#vertical-nav{
-    position: fixed;
+/* #vertical-nav{
+    position: absolute;
     width:100%;
     text-align: center;
     padding:61px;
@@ -313,54 +316,7 @@
     padding: 10px;
     
     
-}
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
-
+} */
 }
 @media(max-width:425px){
     .fa-tooth{
@@ -387,8 +343,8 @@
     color:black;
 } 
 
-#vertical-nav{
-    position: fixed;
+/* #vertical-nav{
+    position: absolute;
     width:100%;
     text-align: center;
     padding:61px;
@@ -429,7 +385,7 @@
 } 
 
 #vertical-nav{
-    position: fixed;
+    position: absolute;
     width:100%;
     text-align: center;
     padding:61px;
@@ -442,54 +398,7 @@
 }
 #vertical-links{
     padding: 10px;  
-}
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
-
+} */
 }
 @media(max-width:414px){
     .fa-tooth{
@@ -517,8 +426,8 @@
     padding-right:10px;
 } 
 
-#vertical-nav{
-    position: fixed;
+/* #vertical-nav{
+    position: absolute;
     width:100%;
     text-align: center;
     padding:61px;
@@ -531,53 +440,7 @@
 }
 #vertical-links{
     padding: 10px;  
-}
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
+} */
 }
 @media(max-width:375px){
     .fa-tooth{
@@ -604,68 +467,6 @@
     color:black;
     padding-right:10px;
 } 
-
-#vertical-nav{
-    position: fixed;
-    width:100%;
-    text-align: center;
-    padding:61px;
-    text-decoration: none;
-    display: none;
-    padding-bottom:50px;
-}
-.vertical-tabs{
-    list-style-type: none;
-}
-#vertical-links{
-    padding: 10px;  
-}
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
 }
 @media(max-width:280px){
     .fa-tooth{
@@ -692,68 +493,6 @@
     color:black;
     padding-right:10px;
 } 
-
-#vertical-nav{
-    position: fixed;
-    width:100%;
-    text-align: center;
-    padding:61px;
-    text-decoration: none;
-    display: none;
-    padding-bottom:50px;
-}
-.vertical-tabs{
-    list-style-type: none;
-}
-#vertical-links{
-    padding: 10px;  
-}
-
-.vertical-ref-about{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 20px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-service{
-    text-decoration: none;
-    background-color:grey;
-    padding: 10px 24px;
-    align-items: center;
-    text-align: center;
-    border: 1px black solid;
-    color:white;
-}
-.vertical-ref-contact{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 26px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-store{
-   text-decoration: none;
-   background-color:grey;
-   padding: 10px 34px;
-   align-items: center;
-   text-align: center;
-   border: 1px black solid;
-   color:white;
-}
-.vertical-ref-appointment{
-  text-decoration: none;
-  background-color:grey;
-  padding: 10px 9px;
-  align-items: center;
-  text-align: center;
-  border: 1px black solid;
-  color:white;
-}
 }
 
 .container-main{

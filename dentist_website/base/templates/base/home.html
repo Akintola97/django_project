@@ -57,11 +57,11 @@
                <li id = 'vertical-links'><a class = 'vertical-ref-appointment' href = 'contact.html'>Appointment</a></li>
       
            </nav>
-           <script>
+         <script>
             $('.bars').click(function(){($('#vertical-nav').fadeToggle(600))}); 
             $(window).scroll(function(){
                 $('#navbar').toggleClass('scrolled', $(this).scrollTop()>50);
-            })
+            }) 
     
 
 
@@ -69,24 +69,26 @@
 
            </script>
 
-
+<!--
 <div class = 'container-main'>
-     <div class = 'video-container'>
+   <div class = 'video-container'>
       <video src = '{% static "/videos/ortho-video3.mp4" %}' autoplay muted loop id = 'main-video'>
    Your browser does not support the video tag
-   </video> 
- <div class = 'main-text'>
+   </video>
+ <div class = 'text-overlay'></div>
+ <div class = 'video-text'>
   <h1 id = 'title'>
       DDS DENTAL TRUST
   </h1>
-<!-- <div class = 'schedule'>
+<div class = 'schedule-overlay'>
     <button id = 'schedule'><a id = 'book-online' href = '{% url "appointment" %}'>Book Online</button></a>
-</div> -->
+</div>
 </div> 
-    </div> 
+</div>
+  </div> 
     </div>
     
-
+-->
     
   <div class = 'container-two'>
  <img class = 'dentist-image' src = '{% static "/images/black-dentist.jpeg" %}' ALIGN = 'left'> 

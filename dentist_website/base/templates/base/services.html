@@ -4,18 +4,201 @@
  
  
      {% block content %}
-    <div class = 'container' id = 'first-services'>
-        <div class = 'procedure-image'>
-            <img class = 'img-dentalprocedure' src = '{% static "/images/services-procedure.jpeg"%}'>
-        </div>
+
+<body>
+   <div class="container-fluid p-0">
+<div class="cover-vid">
+<video autoplay loop muted playsinline>
+<source src='{% static "/videos/dentist.mp4" %}' type = 'video/mp4'>
+</video>
+
+<div class="cover-overlay d-flex justify-content-center align-items-center">
+   <div class="container text-left">
+      <div class="row">
+         <div class="col-md-6">
+<h3 class="pb-2">Your one shop stop for all things dental</h3>
+<h6 class="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est. </h6>
+<a class = 'btn btn-outline-light btn-lg' href='{% url "appointment" %}'>Book Appoinment</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<main>
+   <div class="contaniner-fluid">
+      <div class="full-service text-center pt-4 pb-4">
+         <h4 class="pt-4">DDS is a full service dental office that provides family, pediatric, restorative and cosmestic dentistry</h4>
+         <h6>Click on any of the services below to inqure more information.</h6>
+      </div>
+      <div class="accordion pt-4 pb-5" id="accordionExample">
+         <div class="card">
+           <div class="card-header" id="headingOne">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <h4>Comprehensive Care</h4>
+               </button>
+             </h2>
+           </div>
+       
+           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingTwo">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4>Oral Cancer Screening</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingThree">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4>Teeth Whitening</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingFour">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h4>Cosmestic Dentistry</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingFive">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <h4>Invisalign</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingSix">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <h4>Porcelain Veeners</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingSeven">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <h4>Root Canal</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingEight">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <h4>Gum disease Treatment</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header" id="headingNine">
+             <h2 class="mb-0">
+               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  <h4>Oral Surgery</h4>
+               </button>
+             </h2>
+           </div>
+           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+             <div class="card-body">
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est.</h6>
+             </div>
+           </div>
+         </div>
+       </div>
+   </div>
+</main>
+<section class="services-section1">
+  <div class="jumbotron jumbotron-fluid mb-0 text-center">
+    <div class="container">
+      <h1 class="display-4">Get your first visit $100 off</h1>
+      <p class="lead">Review Dental and Medical health history. Comprehensive Exam. Teeth Cleaning. </p>
+      <a class = 'btn btn-outline-dark btn-lg' href='#' rol="button>"><i class="fas fa-phone"></i>(000)000-0000</a>
+           
     </div>
-    <div class = 'container' id = 'firstservice-cont'>
-        <div class = 'serviceprocedure-header'>
-            <h3>Here at DDS we offer services from prophylaxis to surgical implants, all at our in house location.</h3>
-            <p id = 'serviceprocedure-body'>We accomodate all ages, from kids to senior citizens, our staff is fully prepared to help keep a smile on your face.</p>
-            <div class = 'services-appointmentbtn'>
-            <button id = 'schedule'><a id = 'book-online' href = '{% url "appointment" %}'>Book Online</button></a>
-        </div>
-        </div>
+  </div>
+</section>
+<section class="services-section2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+    <div class="dental-care">
+      <img src='{% static "/images/helping-hand.jpg" %}'>
     </div>
+    </div>
+    <div class="col-md-6">
+    <div class="dental-caretext text-left">
+      <h3>NO INSURANCE, NO PROBLEM!</h3>
+      <h5>Join our Wellness Plan</h5>
+      <p>For $299 a year you're entitled to</p>
+      <ul>
+        <li><i class="fas fa-check-circle"></i>Free Cleanings</li>
+        <li><i class="fas fa-check-circle"></i>All needed X-Rays</li>
+        <li><i class="fas fa-check-circle"></i>Periodontal/Comprehensive Care (2 per year)</li>
+        <li><i class="fas fa-check-circle"></i>15% off all other dental services</li>
+      </ul>
+
+    </div>
+    </div>
+   
+  </div>
+</section>
+
+
+
      {% endblock content %}

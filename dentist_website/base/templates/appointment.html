@@ -1,0 +1,48 @@
+{% extends 'base/base.html' %}
+{% load static %}
+ {% load static %}
+ 
+ 
+     {% block content %}
+     <body>
+      <div class="appointment-body">
+        <div class="appointment-image">
+          <img src ='{% static "/images/appointment.jpg" %}'>
+        </div>
+<div class="appointment-text d-flex align-items-center text-center">
+  <div class="container">
+    <h3>Can't Make it to the Phone?</h3>
+    <h4>No Problem!</h4>
+    <h6 class="pt-4">Set Up an Appointment Online!</h6>
+  </div>
+</div>
+        </div>
+  
+</body>
+     <form class="appointment-form pt-5 pb-5">
+       <div class="container">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="exampleName">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="exampleEmail">
+        </div>
+        <div class="form-group">
+          <label for="phone-number">Phone Number:</label>
+          <input type="number" class="form-control" id="exampleNumber" required>
+        </div>
+        <div class="form-group">
+        <p class="form-group">Message:</p>
+          <textarea id ="message" name="message" required maxlength="5000" rows="8" cols="100"
+          data-name="Message" placeholder class="textarea">
+        </textarea>
+        </div>
+        <div class="appointment-button text-center">
+        <button type="submit" class="btn btn-primary">Submit
+        </button>
+        </div>
+        </div>
+      </form>
+     {% endblock content %}

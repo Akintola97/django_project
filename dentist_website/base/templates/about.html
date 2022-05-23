@@ -1,0 +1,203 @@
+
+{% extends 'base/base.html' %}
+{% load static %}
+ 
+ 
+     {% block content %}
+<body>
+    <div id="vid-2">
+        <video autoplay loop muted playsinline>
+            <source src = '{% static "/videos/dental-chair.mp4" %}' type = 'video/mp4'>
+            Your browser does not support the video tag
+                </video> 
+    
+<div class = 'content d-flex align-items-center'>
+    <div class = 'container text-center'>
+        <h1 class = 'welcome'>About Us</h1>
+    </div>
+    </div>
+    </div>
+    </body>
+    <section class = 'about-section1'>
+        <div class="jumbotron jumbotron-fluid mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+              <h1 class="display-4">About DDS Dental</h1>
+              <p class="lead"> SHARING THE GIFT OF HAPPINESS
+                ONE SMILE AT A TIME</p>
+                <p class="jumbo-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus quam eu massa faucibus, ut sollicitudin quam rhoncus. Nulla ultrices libero sem, id venenatis lorem pharetra at. Fusce nec dignissim sem. Aenean eget scelerisque dolor, sit amet viverra leo. Mauris quis velit dolor. Nulla mattis tincidunt est, a ultrices massa imperdiet et.</p>
+                </div>
+                <div class="col-md-6">
+                <div class="jumbo-image">
+                    <img src='{% static "/images/smile.jpg"%}'>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+          </div>
+    </section>
+    <section class="about-section2">
+        <div class="container-fluid">
+            <div class="meet-office text-center">
+                <h3 class="pt-5 pb-1">MEET THE OFFICE</h3>
+            </div>
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+        <div class="row pb-5">
+            <div class="col-sm-4">
+              <div class="card">
+                <img src='' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">Pedodontist</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src='' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">General Dentist</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src='' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">Orthodontist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row pb-5">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src='' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Dental Surgeon</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src='' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Periodontist</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src='' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Lab Technician</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="carousel-item text-center">
+    <div class="row pb-5">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src='' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Receptionist</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src='' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Dental Assistant</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src=''class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Dental Manager</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>      
+        </div>
+        </div>
+    </section>
+    <section class="about-section3">
+        <div class="jumbotron text-center mb-0">
+            <h1 class="display-4">Join our Dental Family</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed elit interdum nunc pretium congue vel sit amet nibh. Pellentesque vitae libero id tellus auctor vehicula. Morbi interdum faucibus ex ac gravida. Praesent dolor leo, consequat eget commodo eu, euismod id quam. </p>
+            <a class = 'btn btn-outline-dark btn-lg' href='#' rol="button>"><i class="fas fa-phone"></i>(000)000-0000</a>
+           
+          </div>
+    </section>
+
+    <secton class="about-section4 text-center">
+        <div class = 'container'>
+            <div class="comments-header pt-4">
+                <h3 class="pb-3">Reviews from our patients</h3>
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-4">
+                    <h6>"New Favorite dental place. Everyone was so nice and warm. Unfortunately i have a root canal on my next visit but i know im in good hands."</h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="col-md-4">
+                    <h6>"Great atmosphere and staff... Felt at ease the minute I walked in. They really try and make you feel like a member of the club. Can't wait to come back for my next checkup."</h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="col-md-4">
+                    <h6>"My kids love it here. I usually have trouble getting them to the dentist but now all i have to say is we're going to the dentist and they're already in the car. 10/10 recommend"</h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </secton>
+     {% endblock content %}

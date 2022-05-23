@@ -1,0 +1,103 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortho-Store</title>
+
+   
+    <script src="https://kit.fontawesome.com/76066c858e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel = 'stylesheet' href = "{% static '/css/style.css' %}"> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src = '{% static "/js/app.js" %}'></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src = "{% static 'js/app.js'%}"></script>
+        <script>
+            objectFitVideos();
+        </script>
+    </head>
+
+
+<header class="shop-navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class= 'logo-img'>
+      <a class = 'logo-link' href = 'home.html'><span id = 'logo'><i class="fas fa-tooth"></i></span></a>
+      </div>
+      <a class="navbar-brand" href="home.html">Dentist</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+          {% block content %}
+          {% endblock content %}
+
+
+          <footer class="footer-new">
+            <div class="container-fluid text-center">
+              <div class="row">
+                <div class="col-md-3">
+              <div class="contact-details mt-4">
+                <h5>CONTACT DETAILS</h5>
+                <p>East 64th Street <br>New York, NY 10021</p>
+                <a class = 'btn btn-outline-dark btn-lg' href='https://goo.gl/maps/qpYiHy8nLZ94jBiU7'>Get Directions</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="office-hours mt-4">
+                  <h5>OFFICE HOURS</h5>
+                  <p>Monday:8am to 5pm</p>
+                  <p>Tuesday:8am to 5pm</p>
+                  <p>Wednesday:8am to 5pm</p>
+                  <p>Thursday:8am to 5pm</p>
+                  <p>Friday:11am to 4pm</p>
+                  <p>Saturday:12pm to 3pm</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="quick-links mt-4">
+                  <h4>QUICK LINKS</h4>
+                  <p><a class ='footer-link' href='home.html'>HOME</a></p>
+                  <p><a class ='footer-link' href='about.html'>ABOUT</a></p>
+                  <p><a class ='footer-link' href='contact.html'>CONTACT</a></p>
+                  <p><a class ='footer-link' href='services.html'>SERVICES</a></p>
+                  <p><a class ='footer-link' href='appointment.html'>APPOINTMENT</a></p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="social-links mt-4">
+                  <h4>SOCIAL</h4>
+                <p> <a href = 'facebook.com'><i class="fab fa-facebook"></i></a></p>
+               <p> <a href = 'twitter.com'><i class="fab fa-twitter"></i></a></p>
+               <p> <a href = 'instagram.com'><i class="fab fa-instagram"></i></a></p>
+                </div>
+              </div>
+            </div>
+            </div>
+               
+            
+            </footer>
+            </html>

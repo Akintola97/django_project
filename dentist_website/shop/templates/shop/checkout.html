@@ -2,103 +2,41 @@
 {% load static %}
 {% block content %}
 
-
- <div class = 'container' id = 'checkout-page'>
-     <div class = row>
-         <div class = 'col-6'>
-             <div class = 'box-element' id = 'form-wrapper'>
-                <form id = 'form'>
-                    <div id = 'user-info'>
-                            <div class = 'form-field'>
-                                <input required class = 'form-control' type = 'text' name = 'name' placeholder = 'Name..'>
-                            </div>
-                            <div class = 'form-field'>
-                                <input required class = 'form-control' type = 'email' name = 'email' placeholder = 'Email...'>
-                            </div>
-                    </div>
-                    <div id = 'shipping-info'>
-                        <hr>
-                        <h5>Shipping Information</h5>
-                        <hr>
-                        <div class = 'form-field'>
-                            <input class ='form-control' type = 'text' name = 'address' placeholder = 'Address'...>
-                        </div>
-                        <div class = 'form-field'>
-                            <input class = 'form-control' type = 'text' name = 'city' placeholder = 'city...'>
-                        </div>
-                        <div class = 'form-field'>
-                            <input class = 'form-control' type = 'text' name = 'state' placeholder = 'state...'>
-                        </div>
-                        <div class = 'form-field'>
-                            <input class = 'form-control' type = 'text' name = 'zipcode' placeholder = 'Zip code...'>
-                        </div>
-                        <div class = 'form-field'>
-                            <input class = 'form-control' type = 'text' name = 'country' placeholder = 'country...'>
-                        </div>
-                    
-                    </div>
-                    <hr>
-                    <input id = 'form-button' class = 'btn btn-success btn-block' type = 'submit' value = 'continue'>
-                </form>
-             </div>
-             <br>
-             <div class = 'box-element hidden' id = 'payment-info'>
-                <h4>Paypal Options</h4>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="user-info">
+                <div id="form-field">
+                    <input required class="form-control" type="text" name="name" placeholder="Name...">
+                </div>
             </div>
-         </div>
-            <div class = 'col-6'>
-                <div class = 'box-element'>
-                    <a class = 'btn btn-outline-dark' href = 'cart.html'>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                        </svg>&#x2190;
-                       </a>     
-                       <hr>
-                       <h5>Order Summary</h5>
-                       <hr>
-                       {% for item in items %}
-                       <div class = 'row' id = 'checkout-row'>
-                           <div class = 'col'>
-                               <div class = 'checkout-image'>
-                                <img class = 'checkout-img' src = '{{item.product.image.url}}'>
-                               </div>
-                           </div>
-                           <div class = 'col'>
-                               <div class = 'product-name'>
-                                   <h8>{{item.product.name}}</h8>
-
-                               </div>
-                           </div>
-                           <div class = 'col'>
-                               <div class = 'price-tag'>
-                                   <h8>${{item.product.price}}</h8>
-
-                               </div>
-                           </div>
-                           <div class = 'col'>
-                               <div class = 'item-quantity'>
-                                   <h8>{{item.quantity}}</h8>
-                               </div>
-
-                               
-                               </div>
-                               
-                               <hr>
-                               
-                             
-                            
-                        </div>
-                        {% endfor %}
-                        <div class = 'row' id = 'checkout-total'>
-                            <div class = 'col'>
-                                <h5> Items: {{order.get_cart_items}}</h5>
-                                <h5> Total: ${{order.get_cart_total}}</h5>
-                            </div>
-                        </div>
+            </form>
+            </div>
+    <div class="col-md-6">
+        <form>
+            <div class="user-info">
+                <div id="form-field">
+                    <input required class="form-control" type="email" name="email" placeholder="Email...">
                 </div>
-                
-                </div>
-                
- </div>
+            </div>
+            </form>
+            </div>
+            <div id="shipping-info">
+                <hr>
+                <h5>Shipping Information</h5>
+                <hr>
+            </div>
+            
+</div>
+
+
+
+</div>
+
+
+
+
+
 
 {% endblock content %}
